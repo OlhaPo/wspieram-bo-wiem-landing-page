@@ -25,15 +25,17 @@ const NavMenu = () => {
           <a href="#contacts">Контакти</a>
         </div>
       ) : null}
-      <div className="flex flex-row justify-between items-center px-10 lg:px-16 py-4">
-        <div className="inline-flex items-center gap-12 md:gap-8">
-          <img
-            src="./logo.png"
-            alt="Wspieram bo wiem logo"
-            className="h-16 w-16"
-          />
-          <span>Wspieram, bo wiem...</span>
-        </div>
+      <div className="flex flex-row justify-around items-center py-4">
+        <img
+          src="./logo.png"
+          alt="Wspieram bo wiem logo"
+          className="h-16 w-16"
+        />
+
+        <span className="text-xl md:text-3xl italic text-[#513185]">
+          Wspieram, bo wiem...
+        </span>
+
         <div>
           <BiMenu size={30} onClick={handleNav} className="md:hidden z-[140]" />
         </div>
