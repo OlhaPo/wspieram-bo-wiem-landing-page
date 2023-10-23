@@ -5,3 +5,7 @@
 .nav {
   @apply text-lg;
 }
+
+.thumbs-wrapper {
+  display: none;
+}
