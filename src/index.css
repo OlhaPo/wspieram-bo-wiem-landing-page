@@ -7,5 +7,18 @@
 }
 
 .thumbs-wrapper {
-  display: none;
+  @apply hidden;
 }
+
+.carousel-container {
+  @apply relative;
+}
+
+.custom-slide {
+  @apply relative;
+}
+
+.text-overlay {
+  @apply absolute top-0 left-0 text-white p-10;
+}
+/* max-width: 50%; Adjust the width of the text overlay as needed */

@@ -8,6 +8,7 @@ const MainPageSlideShow = () => {
     <div>
       <Carousel
         showStatus={false}
+        dynamicHeight={true}
         renderArrowPrev={(clickHandler, hasPrev) => {
           return (
             <div
@@ -33,17 +34,26 @@ const MainPageSlideShow = () => {
           );
         }}
       >
-        <div>
-          <img src="./images/doula-background.png" />
-          <p className="legend">Legend 1</p>
+        <div className="custom-slide">
+          <img src="./images/doula-background.png" alt="Slide 1" />
+          <div className="text-overlay">
+            <h2>Slide 1</h2>
+            <p>Description for Slide 1</p>
+          </div>
         </div>
-        <div>
-          <img src="./images/doula-background.png" />
-          <p className="legend">Legend 2</p>
+        <div className="custom-slide">
+          <img src="./images/postpartum-doula-background.png" alt="Slide 2" />
+          <div className="text-overlay">
+            <h2>Slide 2</h2>
+            <p>Description for Slide 2</p>
+          </div>
         </div>
-        <div>
-          <img src="./images/doula-background.png" />
-          <p className="legend">Legend 3</p>
+        <div className="custom-slide">
+          <img src="./images/family-therapy-background.png" alt="Slide 3" />
+          <div className="text-overlay">
+            <h2>Slide 3</h2>
+            <p>Description for Slide 3</p>
+          </div>
         </div>
       </Carousel>
     </div>
