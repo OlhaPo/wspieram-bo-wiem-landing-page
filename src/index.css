@@ -22,3 +22,7 @@
   @apply absolute top-0 left-0 text-white p-10;
 }
 /* max-width: 50%; Adjust the width of the text overlay as needed */
+
+.reviews {
+  @apply text-xl py-8 text-center;
+}
