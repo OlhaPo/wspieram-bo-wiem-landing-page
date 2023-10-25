@@ -26,3 +26,11 @@
 .reviews {
   @apply text-xl py-8 text-center;
 }
+
+.contacts {
+  @apply border-t-2 border-primary py-8 text-lg flex flex-col md:flex-row items-center justify-around gap-8 md:gap-0;
+}
+
+.link-hover {
+  @apply hover:text-primary hover:underline;
+}

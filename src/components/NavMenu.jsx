@@ -32,14 +32,14 @@ const NavMenu = () => {
           className="h-16 w-16"
         />
 
-        <span className="text-xl md:text-3xl italic text-[#513185]">
+        <span className="text-xl md:text-3xl italic text-primary">
           Wspieram, bo wiem...
         </span>
 
         <div>
           <BiMenu size={30} onClick={handleNav} className="md:hidden z-[140]" />
         </div>
-        <div className="hidden md:inline-flex gap-10 items-center">
+        <div className="hidden md:inline-flex gap-10 items-center hover:text-primary">
           <a href="/about">Про мене</a>
           <a href="/services">Послуги</a>
           <a href="#contacts">Контакти</a>
