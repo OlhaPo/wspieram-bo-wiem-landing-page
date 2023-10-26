@@ -38,28 +38,30 @@ const NavMenu = () => {
             Про мене
           </a>
           <button ref={btnRef} onClick={handleDropdownMenu}>
-            <span className="inline-flex items-baseline gap-1 hover:text-primary">
-              Послуги <AiOutlineDown size={13} />
-            </span>
-            {isDropdownOpen ? (
-              <ul className="dropdown-content">
-                <li>
-                  <a href="/service1" className="hover:text-primary">
-                    Service 1
-                  </a>
-                </li>
-                <li>
-                  <a href="/service2" className="hover:text-primary">
-                    Service 2
-                  </a>
-                </li>
-                <li>
-                  <a href="/service3" className="hover:text-primary">
-                    Service 3
-                  </a>
-                </li>
-              </ul>
-            ) : null}
+            <div className="services">
+              <span className="inline-flex items-baseline gap-1 hover:text-primary">
+                Послуги <AiOutlineDown size={13} />
+              </span>
+              {isDropdownOpen ? (
+                <ul className="dropdown-content">
+                  <li>
+                    <a href="/service1" className="hover:text-primary">
+                      Doula
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/service2" className="hover:text-primary">
+                      Postpartum doula
+                    </a>
+                  </li>
+                  <li>
+                    <a href="/service3" className="hover:text-primary">
+                      Психологічна підтримка/консультування
+                    </a>
+                  </li>
+                </ul>
+              ) : null}
+            </div>
           </button>
           <a href="#contacts">Контакти</a>
           <a href="#" className="link-button">
@@ -91,7 +93,7 @@ const NavMenu = () => {
             Про мене
           </a>
           <button ref={btnRef} onClick={handleDropdownMenu}>
-            <div>
+            <div className="services">
               <span className="inline-flex items-baseline gap-1 hover:text-primary">
                 Послуги <AiOutlineDown size={13} />
               </span>
@@ -99,17 +101,17 @@ const NavMenu = () => {
                 <ul className="dropdown-content">
                   <li>
                     <a href="/service1" className="hover:text-primary">
-                      Service 1
+                      Doula
                     </a>
                   </li>
                   <li>
                     <a href="/service2" className="hover:text-primary">
-                      Service 2
+                      Postpartum doula
                     </a>
                   </li>
                   <li>
                     <a href="/service3" className="hover:text-primary">
-                      Service 3
+                      Психологічна підтримка/консультування
                     </a>
                   </li>
                 </ul>
