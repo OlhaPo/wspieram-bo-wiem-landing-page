@@ -18,7 +18,7 @@ body {
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
-  @apply absolute bg-[#f9f9f9] min-w-[160px] z-[1200];
+  @apply absolute bg-[#f9f9f9] min-w-[160px] z-[1000];
 }
 
 /* Style dropdown links */

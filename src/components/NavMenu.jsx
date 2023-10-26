@@ -39,7 +39,7 @@ const NavMenu = () => {
           <a href="/about" className="hover:text-primary">
             Про мене
           </a>
-          <button ref={btnRef} onClick={handleDropdownMenu}>
+          <button ref={btnRef} onTouchStart={handleDropdownMenu}>
             <span className="inline-flex items-baseline gap-1 hover:text-primary">
               Послуги <AiOutlineDown size={13} />
             </span>
