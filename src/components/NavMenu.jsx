@@ -1,12 +1,29 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { BiMenu } from "react-icons/bi";
-import { AiOutlineClose } from "react-icons/ai";
+import { AiOutlineClose, AiOutlineDown } from "react-icons/ai";
 
 const NavMenu = () => {
   const [isOpenNav, setIsOpenNav] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+  const btnRef = useRef();
+
+  useEffect(() => {
+    const closeDropdown = (e) => {
+      if (btnRef.current && !btnRef.current.contains(e.target)) {
+        setIsDropdownOpen(false);
+      }
+    };
+    document.body.addEventListener("click", closeDropdown);
+    return () => document.body.removeEventListener("click", closeDropdown);
+  }, []);
 
   const handleNav = () => {
     setIsOpenNav(!isOpenNav);
+  };
+
+  const handleDropdownMenu = (e) => {
+    e.preventDefault();
+    setIsDropdownOpen(!isDropdownOpen);
   };
 
   return (
@@ -21,7 +38,28 @@ const NavMenu = () => {
             className="relative -right-[150px] -top-[250px]"
           />
           <a href="/about">Про мене</a>
-          <a href="/services">Послуги</a>
+          <button
+            ref={btnRef}
+            onClick={handleDropdownMenu}
+            className="services"
+          >
+            <span className="inline-flex items-baseline gap-1">
+              Послуги <AiOutlineDown size={13} />
+            </span>
+            {isDropdownOpen ? (
+              <ul className="dropdown-content">
+                <li>
+                  <a href="/service1">Service 1</a>
+                </li>
+                <li>
+                  <a href="/service2">Service 2</a>
+                </li>
+                <li>
+                  <a href="/service3">Service 3</a>
+                </li>
+              </ul>
+            ) : null}
+          </button>
           <a href="#contacts">Контакти</a>
           <a href="#" className="link-button">
             Запис на консультацію
@@ -49,7 +87,26 @@ const NavMenu = () => {
         </div>
         <div className="hidden md:inline-flex md:gap-4 lg:gap-8 items-center hover:text-primary">
           <a href="/about">Про мене</a>
-          <a href="/services">Послуги</a>
+          <button ref={btnRef} onClick={handleDropdownMenu}>
+            <div className="services">
+              <span className="inline-flex items-baseline gap-1">
+                Послуги <AiOutlineDown size={13} />
+              </span>
+              {isDropdownOpen ? (
+                <ul className="dropdown-content">
+                  <li>
+                    <a href="/service1">Service 1</a>
+                  </li>
+                  <li>
+                    <a href="/service2">Service 2</a>
+                  </li>
+                  <li>
+                    <a href="/service3">Service 3</a>
+                  </li>
+                </ul>
+              ) : null}
+            </div>
+          </button>
           <a href="#contacts">Контакти</a>
           <a href="#" className="link-button">
             Запис на консультацію
