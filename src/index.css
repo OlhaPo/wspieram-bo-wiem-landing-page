@@ -2,16 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-[#F4F4F4];
+}
+
 .nav {
-  @apply text-lg;
+  @apply text-base lg:text-lg md:pb-3 md:pt-2;
 }
 
 .thumbs-wrapper {
   @apply hidden;
 }
 
-.carousel-container {
-  @apply relative;
+.carousel-root {
+  /* @apply; */
 }
 
 .custom-slide {
@@ -19,18 +23,26 @@
 }
 
 .text-overlay {
-  @apply absolute top-0 left-0 text-white p-10;
+  @apply absolute text-white p-10;
 }
 /* max-width: 50%; Adjust the width of the text overlay as needed */
 
 .reviews {
-  @apply text-xl py-8 text-center;
+  @apply text-xl py-10 mx-auto max-w-[60rem] text-center leading-7;
+}
+
+h2 {
+  @apply text-2xl pb-6;
 }
 
 .contacts {
-  @apply border-t-2 border-primary py-8 text-lg flex flex-col md:flex-row items-center justify-around gap-8 md:gap-0;
+  @apply border-t border-primary py-8 text-lg flex flex-col lg:flex-row items-center justify-around gap-8 lg:gap-0;
 }
 
 .link-hover {
   @apply hover:text-primary hover:underline;
+}
+
+.link-button {
+  @apply border-primary border-2 px-3 py-2 text-primary rounded-md bg-white;
 }
