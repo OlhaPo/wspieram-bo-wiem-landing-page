@@ -6,9 +6,9 @@ import { LiaFacebookMessenger } from "react-icons/lia";
 import { PiTelegramLogo } from "react-icons/pi";
 import { GoLocation } from "react-icons/go";
 
-const Contacts = () => {
+const Footer = () => {
   return (
-    <div className="contacts">
+    <div className="contacts" id="contacts">
       <div className="inline-flex items-center italic gap-2 text-xl text-primary">
         <img
           src="./logo.png"
@@ -60,4 +60,4 @@ const Contacts = () => {
   );
 };
 
-export default Contacts;
+export default Footer;

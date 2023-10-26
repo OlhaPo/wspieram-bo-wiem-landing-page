@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose, AiOutlineDown } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const NavMenu = () => {
   const [isOpenNav, setIsOpenNav] = useState(false);
@@ -28,41 +29,27 @@ const NavMenu = () => {
   return (
     <div className="nav">
       {isOpenNav ? (
-        <div className="w-full bg-[#eceae8] min-h-screen z-[120] flex flex-col justify-center items-center gap-6">
+        <div className="w-full bg-[#eceae8] min-h-screen z-[120] flex flex-col justify-center items-start px-20 gap-6">
           <AiOutlineClose
             size={28}
-            className="relative -right-[150px] -top-[250px]"
+            className="absolute right-6 top-6"
             onClick={handleNav}
           />
-          <a href="/about" className="hover:text-primary">
+          <Link to="/about" className="hover:text-primary">
             Про мене
+          </Link>
+          <span className="inline-flex items-baseline gap-1 hover:text-primary">
+            Послуги:
+          </span>
+          <a href="/doula" className="hover:text-primary">
+            Doula
+          </a>{" "}
+          <a href="/postpartum-doula" className="hover:text-primary">
+            Postpartum doula
+          </a>{" "}
+          <a href="/therapy" className="hover:text-primary">
+            Психологічна підтримка/консультування
           </a>
-          <button ref={btnRef} onClick={handleDropdownMenu}>
-            <div className="services">
-              <span className="inline-flex items-baseline gap-1 hover:text-primary">
-                Послуги <AiOutlineDown size={13} />
-              </span>
-              {isDropdownOpen ? (
-                <ul className="dropdown-content">
-                  <li>
-                    <a href="/service1" className="hover:text-primary">
-                      Doula
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/service2" className="hover:text-primary">
-                      Postpartum doula
-                    </a>
-                  </li>
-                  <li>
-                    <a href="/service3" className="hover:text-primary">
-                      Психологічна підтримка/консультування
-                    </a>
-                  </li>
-                </ul>
-              ) : null}
-            </div>
-          </button>
           <a href="#contacts">Контакти</a>
           <a href="#" className="link-button">
             Запис на консультацію
@@ -100,17 +87,17 @@ const NavMenu = () => {
               {isDropdownOpen ? (
                 <ul className="dropdown-content">
                   <li>
-                    <a href="/service1" className="hover:text-primary">
+                    <a href="/doula" className="hover:text-primary">
                       Doula
                     </a>
                   </li>
                   <li>
-                    <a href="/service2" className="hover:text-primary">
+                    <a href="/postpartum-doula" className="hover:text-primary">
                       Postpartum doula
                     </a>
                   </li>
                   <li>
-                    <a href="/service3" className="hover:text-primary">
+                    <a href="/therapy" className="hover:text-primary">
                       Психологічна підтримка/консультування
                     </a>
                   </li>
