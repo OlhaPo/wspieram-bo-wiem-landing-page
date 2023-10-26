@@ -21,8 +21,7 @@ const NavMenu = () => {
     setIsOpenNav(!isOpenNav);
   };
 
-  const handleDropdownMenu = (e) => {
-    e.preventDefault();
+  const handleDropdownMenu = () => {
     setIsDropdownOpen(!isDropdownOpen);
   };
 
@@ -37,25 +36,29 @@ const NavMenu = () => {
             size={28}
             className="relative -right-[150px] -top-[250px]"
           />
-          <a href="/about">Про мене</a>
-          <button
-            ref={btnRef}
-            onClick={handleDropdownMenu}
-            className="services"
-          >
-            <span className="inline-flex items-baseline gap-1">
+          <a href="/about" className="hover:text-primary">
+            Про мене
+          </a>
+          <button ref={btnRef} onClick={handleDropdownMenu}>
+            <span className="inline-flex items-baseline gap-1 hover:text-primary">
               Послуги <AiOutlineDown size={13} />
             </span>
             {isDropdownOpen ? (
               <ul className="dropdown-content">
                 <li>
-                  <a href="/service1">Service 1</a>
+                  <a href="/service1" className="hover:text-primary">
+                    Service 1
+                  </a>
                 </li>
                 <li>
-                  <a href="/service2">Service 2</a>
+                  <a href="/service2" className="hover:text-primary">
+                    Service 2
+                  </a>
                 </li>
                 <li>
-                  <a href="/service3">Service 3</a>
+                  <a href="/service3" className="hover:text-primary">
+                    Service 3
+                  </a>
                 </li>
               </ul>
             ) : null}
@@ -85,29 +88,39 @@ const NavMenu = () => {
             className="md:hidden z-[140] text-primary"
           />
         </div>
-        <div className="hidden md:inline-flex md:gap-4 lg:gap-8 items-center hover:text-primary">
-          <a href="/about">Про мене</a>
+        <div className="hidden md:inline-flex md:gap-4 lg:gap-8 items-center">
+          <a href="/about" className="hover:text-primary">
+            Про мене
+          </a>
           <button ref={btnRef} onClick={handleDropdownMenu}>
-            <div className="services">
-              <span className="inline-flex items-baseline gap-1">
+            <div>
+              <span className="inline-flex items-baseline gap-1 hover:text-primary">
                 Послуги <AiOutlineDown size={13} />
               </span>
               {isDropdownOpen ? (
                 <ul className="dropdown-content">
                   <li>
-                    <a href="/service1">Service 1</a>
+                    <a href="/service1" className="hover:text-primary">
+                      Service 1
+                    </a>
                   </li>
                   <li>
-                    <a href="/service2">Service 2</a>
+                    <a href="/service2" className="hover:text-primary">
+                      Service 2
+                    </a>
                   </li>
                   <li>
-                    <a href="/service3">Service 3</a>
+                    <a href="/service3" className="hover:text-primary">
+                      Service 3
+                    </a>
                   </li>
                 </ul>
               ) : null}
             </div>
           </button>
-          <a href="#contacts">Контакти</a>
+          <a href="#contacts" className="hover:text-primary">
+            Контакти
+          </a>
           <a href="#" className="link-button">
             Запис на консультацію
           </a>
