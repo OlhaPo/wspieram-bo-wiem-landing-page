@@ -35,7 +35,7 @@ const NavMenu = () => {
             alt="Wspieram bo wiem logo"
             className="w-10 h-10 lg:h-16 lg:w-16"
           />{" "}
-          <span className="text-lg lg:text-3xl italic text-primary">
+          <span className="text-lg md:text-xl lg:text-3xl italic text-primary">
             Wspieram, bo wiem...
           </span>
         </div>
