@@ -28,18 +28,16 @@ const NavMenu = () => {
   return (
     <div className="nav">
       {isOpenNav ? (
-        <div
-          onClick={handleNav}
-          className="w-full bg-[#eceae8] min-h-screen z-[120] flex flex-col justify-center items-center gap-6"
-        >
+        <div className="w-full bg-[#eceae8] min-h-screen z-[120] flex flex-col justify-center items-center gap-6">
           <AiOutlineClose
             size={28}
             className="relative -right-[150px] -top-[250px]"
+            onClick={handleNav}
           />
           <a href="/about" className="hover:text-primary">
             Про мене
           </a>
-          <button ref={btnRef} onTouchStart={handleDropdownMenu}>
+          <button ref={btnRef} onClick={handleDropdownMenu}>
             <span className="inline-flex items-baseline gap-1 hover:text-primary">
               Послуги <AiOutlineDown size={13} />
             </span>
