@@ -1,7 +1,8 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const MainPageSlideShow = () => {
   return (
@@ -42,12 +43,12 @@ const MainPageSlideShow = () => {
                 доула.
               </p>
               <div className="mt-5">
-                <a
-                  href=""
+                <Link
+                  to="/about"
                   className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
                 >
                   Дізнатися більше
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -59,12 +60,12 @@ const MainPageSlideShow = () => {
                 вагітності та пологів
               </p>
               <div className="mt-5">
-                <a
-                  href=""
+                <Link
+                  to="/doula"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
                   Дізнатися більше
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -76,12 +77,12 @@ const MainPageSlideShow = () => {
                 контакту з новонародженим малям
               </p>
               <div className="mt-5">
-                <a
-                  href=""
+                <Link
+                  to="/doula-postpartum"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
                   Дізнатися більше
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -90,12 +91,12 @@ const MainPageSlideShow = () => {
             <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-[5%]">
               <p>Підтримка психологічної гармонії в сімейних стосунках</p>
               <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">
-                <a
-                  href=""
+                <Link
+                  to="/therapy"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
                   Дізнатися більше
-                </a>
+                </Link>
               </div>
             </div>
           </div>
