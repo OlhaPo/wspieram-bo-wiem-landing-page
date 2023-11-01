@@ -1,7 +1,7 @@
 import React from "react";
 
 const Therapy = () => {
-  return <div>Therapy page</div>;
+  return <div></div>;
 };
 
 export default Therapy;

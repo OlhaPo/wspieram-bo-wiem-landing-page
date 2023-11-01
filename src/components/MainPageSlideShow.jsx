@@ -35,29 +35,67 @@ const MainPageSlideShow = () => {
           }}
         >
           <div className="custom-slide">
-            <img src="./images/slide-1.png" alt="Slide 1" />
-            <div className="text-overlay left-[-20px] md:left-0 text-left text-base md:text-[130%] font-light top-0">
-              <p>Description for Slide 1</p>
+            <img src="./images/slide-1-new.png" alt="Про Альону Єрмакову" />
+            <div className="text-overlay right-[55%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%]">
+              <p className="text-black">
+                Альона Єрмакова - психолог, акушерка, доула, післяпологова
+                доула.
+              </p>
               <div className="mt-5">
-                <a href="">Дізнатися більше</a>
+                <a
+                  href=""
+                  className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
+                >
+                  Дізнатися більше
+                </a>
               </div>
             </div>
           </div>
           <div className="custom-slide">
-            <img src="./images/slide-2.png" alt="Slide 2" />
-            <div className="text-overlay left-[54%] text-left md:text-[130%] font-light top-0">
-              <p>Description for Slide 2</p>
+            <img src="./images/slide-2.png" alt="Доула" />
+            <div className="text-overlay right-[48%] md:right-[55%] left-0 md:left-[5%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%]">
+              <p>
+                Супровід та інформаційно/фізично/психологічна підтримка під час
+                вагітності та пологів
+              </p>
               <div className="mt-5">
-                <a href="">Дізнатися більше</a>
+                <a
+                  href=""
+                  className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
+                >
+                  Дізнатися більше
+                </a>
               </div>
             </div>
           </div>
           <div className="custom-slide">
-            <img src="./images/slide-3.png" alt="Slide 3" />
-            <div className="text-overlay left-[-20px] md:left-0 text-left text-base md:text-[130%] font-light top-0">
-              <p>Description for Slide 3</p>
+            <img src="./images/slide-3.png" alt="Postpartum doula" />
+            <div className="text-overlay left-[50%] lg:left-[55%] text-left text-xs md:text-[150%] leading-2 md:leading-8 font-light top-[5%] md:top-[20%] lg:top-[35%]">
+              <p>
+                Всебічна підтримка мами (батьків) на шляху становлення тісного
+                контакту з новонародженим малям
+              </p>
               <div className="mt-5">
-                <a href="">Дізнатися більше</a>
+                <a
+                  href=""
+                  className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
+                >
+                  Дізнатися більше
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="custom-slide">
+            <img src="./images/slide-4.png" alt="Консультування" />
+            <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-[5%]">
+              <p>Підтримка психологічної гармонії в сімейних стосунках</p>
+              <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">
+                <a
+                  href=""
+                  className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
+                >
+                  Дізнатися більше
+                </a>
               </div>
             </div>
           </div>

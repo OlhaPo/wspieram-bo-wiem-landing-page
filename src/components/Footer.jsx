@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="contacts" id="contacts">
       <div className="inline-flex items-center italic gap-2 text-xl text-primary">
         <img
-          src="./logo.png"
+          src="./logo-4.png"
           alt="Wspieram bo wiem logo"
           className="h-12 w-12"
         />
@@ -24,17 +24,25 @@ const Footer = () => {
         </div>
         <div className="flex md:inline-flex items-center gap-1">
           <BiPhoneCall className="text-primary" size={20} />
-          <a href="tel:">+480000000</a>{" "}
+          <a href="tel:+48570327545">+48570327545</a>{" "}
+        </div>
+        <div className="flex md:inline-flex items-center gap-1">
+          <BiPhoneCall className="text-primary" size={20} />
+          <a href="tel:+380965472102">+380965472102</a>{" "}
         </div>
         <div className="flex md:inline-flex items-center gap-1">
           <FiMail className="text-primary" size={20} />
-          <a href="mailto:" target="_blank" className="link-hover">
-            <span>emailemail@gmail.com</span>
+          <a
+            href="mailto:alyona2017ck@gmail.com"
+            target="_blank"
+            className="link-hover"
+          >
+            <span>alyona2017ck@gmail.com</span>
           </a>
         </div>
       </div>
       <div className="flex md:inline-flex items-center gap-5 text-primary">
-        <a href="tel:" target="_blank" className="link-hover">
+        <a href="tel:+48570327545" target="_blank" className="link-hover">
           <PiTelegramLogo size={25} />
         </a>
         <a href="tel:" target="_blank" className="link-hover">

@@ -51,21 +51,23 @@ const NavMenu = () => {
             Психологічна підтримка/консультування
           </a>
           <a href="#contacts">Контакти</a>
-          <a href="#" className="link-button">
+          <a href="tel:+48570327545" className="link-button">
             Запис на консультацію
           </a>
         </div>
       ) : null}
       <div className="max-w-[70rem] mx-auto flex flex-row justify-around xl:justify-between items-center py-4">
-        <div className="inline-flex gap-3 lg:gap-4 items-center">
-          <img
-            src="./logo.png"
-            alt="Wspieram bo wiem logo"
-            className="w-10 h-10 lg:h-16 lg:w-16"
-          />{" "}
-          <span className="text-lg md:text-xl lg:text-3xl italic text-primary">
-            Wspieram, bo wiem...
-          </span>
+        <div>
+          <a href="/" className="inline-flex gap-3 lg:gap-4 items-center">
+            <img
+              src="./logo-4.png"
+              alt="Wspieram bo wiem logo"
+              className="w-10 h-10 lg:h-16 lg:w-16"
+            />{" "}
+            <span className="text-lg md:text-xl lg:text-2xl italic text-primary">
+              Wspieram, bo wiem...
+            </span>
+          </a>
         </div>
 
         <div>
