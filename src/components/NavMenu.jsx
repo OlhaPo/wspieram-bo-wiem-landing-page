@@ -42,10 +42,10 @@ const NavMenu = () => {
             Послуги:
           </span>
           <a href="/doula" className="hover:text-primary">
-            Doula
+            Доула
           </a>{" "}
           <a href="/postpartum-doula" className="hover:text-primary">
-            Postpartum doula
+            Післяпологова доула
           </a>{" "}
           <a href="/therapy" className="hover:text-primary">
             Психологічна підтримка/консультування
@@ -90,12 +90,12 @@ const NavMenu = () => {
                 <ul className="dropdown-content">
                   <li>
                     <a href="/doula" className="hover:text-primary">
-                      Doula
+                      Доула
                     </a>
                   </li>
                   <li>
                     <a href="/postpartum-doula" className="hover:text-primary">
-                      Postpartum doula
+                      Післяпологова доула
                     </a>
                   </li>
                   <li>

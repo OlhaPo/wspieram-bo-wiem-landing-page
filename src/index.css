@@ -10,8 +10,12 @@ body {
   @apply text-base lg:text-lg md:pb-3 md:pt-2;
 }
 
-.about {
-  @apply min-h-screen bg-[url('/images/background-about.png')];
+.about-page {
+  @apply min-h-screen text-[15px];
+}
+
+.about-page p {
+  @apply mb-4;
 }
 
 .services {
@@ -20,17 +24,12 @@ body {
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
-  @apply absolute bg-[#f9f9f9] min-w-[160px] z-[1000];
+  @apply absolute bg-[#F4F4F4] min-w-[160px] z-[1000] mt-2;
 }
 
 /* Style dropdown links */
 .dropdown-content a {
   @apply text-[#333] px-4 py-3 no-underline text-left block;
-}
-
-/* Change color on hover */
-.dropdown-content a:hover {
-  @apply bg-[#ddd];
 }
 
 .thumbs-wrapper {
