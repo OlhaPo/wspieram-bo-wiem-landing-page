@@ -11,11 +11,26 @@ body {
 }
 
 .about-page {
-  @apply min-h-screen text-[15px];
+  @apply bg-[url('/images/background-about.png')] bg-cover bg-no-repeat min-h-screen text-[17px] w-full;
 }
 
-.about-page p {
+.about-page p,
+.therapy-page p,
+.doula-postpartum-page p,
+.doula-page p {
   @apply mb-4;
+}
+
+.doula-page {
+  @apply bg-[url('/images/doula-bg-sm.png')] md:bg-[url('/images/doula-bg-new.png')] bg-cover bg-no-repeat min-h-screen w-full text-[15px] md:text-[17px];
+}
+
+.doula-postpartum-page {
+  @apply bg-[url('/images/Desktop-5-sm-new.png')] md:bg-[url('/images/Desktop-5-new.png')] bg-cover bg-no-repeat min-h-screen w-full text-[17px];
+}
+
+.therapy-page {
+  @apply bg-[url('/images/Desktop-8.png')] bg-cover bg-no-repeat min-h-screen w-full text-[17px];
 }
 
 .services {

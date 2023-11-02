@@ -17,10 +17,10 @@ const Footer = () => {
         />
         <span>Wspieram, bo wiem...</span>
       </div>
-      <div className="flex flex-col items-center md:flex-row gap-1 md:gap-6">
+      <div className="flex flex-col items-center md:flex-row gap-1 md:gap-3">
         <div className="flex md:inline-flex items-center gap-1">
           <GoLocation className="text-primary" size={20} />
-          Бельсько-Б&lsquo;яла, Польща
+          Бельсько-Б&lsquo;яла
         </div>
         <div className="flex md:inline-flex items-center gap-1">
           <BiPhoneCall className="text-primary" size={20} />
