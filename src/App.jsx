@@ -1,7 +1,7 @@
 import Footer from "./components/Footer";
 import MainPageSlideShow from "./components/MainPageSlideShow";
 import NavMenu from "./components/NavMenu";
-import Reviews from "./components/Reviews";
+import Services from "./components/Services";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Doula from "./components/Doula";
 import About from "./components/About";
@@ -18,7 +18,7 @@ function App() {
           element={
             <>
               <MainPageSlideShow />
-              <Reviews />
+              <Services />
             </>
           }
         />

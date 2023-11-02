@@ -33,6 +33,14 @@ body {
   @apply bg-[url('/images/therapy-bg.jpg')] bg-cover bg-no-repeat min-h-screen w-full text-[16px] md:text-[17px];
 }
 
+.services-main-page-section {
+  @apply leading-8 py-8 md:py-16 px-10 lg:px-0 text-[16px] md:text-[17px] max-w-[50rem] items-center mx-auto flex flex-nowrap flex-col;
+}
+
+.services-main-page-section div {
+  @apply mb-10;
+}
+
 .services {
   @apply relative inline-block cursor-pointer;
 }
