@@ -9,7 +9,7 @@ import { GoLocation } from "react-icons/go";
 const Footer = () => {
   return (
     <div className="contacts" id="contacts">
-      <div className="inline-flex items-center italic gap-2 text-xl text-primary">
+      <div className="inline-flex items-center italic gap-2 text-2xl text-primary">
         <img
           src="./logo-4.png"
           alt="Wspieram bo wiem logo"
@@ -17,7 +17,8 @@ const Footer = () => {
         />
         <span>Wspieram, bo&nbsp;wiem...</span>
       </div>
-      <div className="flex flex-col items-center md:flex-row gap-1 md:gap-3">
+
+      <div className="flex flex-col items-center md:flex-row gap-1 md:gap-5 lg:gap-8">
         <div className="flex md:inline-flex items-center gap-1">
           <GoLocation className="text-primary" size={20} />
           Бельсько-Б&lsquo;яла
