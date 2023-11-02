@@ -4,7 +4,7 @@ const PostpartumDoula = () => {
   return (
     <div className="doula-postpartum-page leading-8 py-8 md:py-16 px-6 lg:px-0">
       <div className="max-w-[55rem] mx-auto">
-        <div className="text-lg md:text-2xl uppercase mb-8">
+        <div className="text-lg md:text-2xl text-primary uppercase mb-8">
           Післяпологова доула
         </div>
         <p>
