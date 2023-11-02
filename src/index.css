@@ -10,10 +10,6 @@ body {
   @apply text-base lg:text-lg md:pb-3 md:pt-2;
 }
 
-.custom-list {
-  list-style-type: disc;
-}
-
 .about-page {
   @apply bg-[url('/images/background-about.png')] bg-cover bg-no-repeat min-h-screen text-[16px] md:text-[17px] w-full;
 }

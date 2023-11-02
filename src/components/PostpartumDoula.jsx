@@ -24,11 +24,11 @@ const PostpartumDoula = () => {
           Доула допомагає батькам стати на цей шлях розуміння, близькості та
           створення міцного зв’язку на все життя.
         </p>
-        <p className="my-8 text-[17px] md:text-[18px] leading-8 pl-6 italic">
+        <p className="my-8 text-[17px] md:text-[18px] leading-8">
           <span>
             Які послуги я можу запропонувати вам у ролі doula postpartum?
           </span>{" "}
-          <ul className="custom-list">
+          <ul className="italic">
             <li>підтримка та налагодження грудного вигодовування;</li>
             <li>допомога у Вашому емоційному та фізичному відновленні;</li>
             <li>супровід по догляду за новонародженим;</li>

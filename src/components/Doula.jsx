@@ -69,9 +69,9 @@ const Doula = () => {
           Бути вашою дулою — вашим компаньйоном та підтримкою на цьому
           надзвичайному шляху.
         </p>
-        <p className="my-8 text-[17px] md:text-[18px] leading-8 pl-6 italic">
+        <p className="my-8 text-[17px] md:text-[18px] leading-8">
           <span>З чим я можу вам допомогти?</span>
-          <ul className="custom-list">
+          <ul className="italic">
             <li>Підтримка під час вагітності;</li>
             <li>
               Підготовка до пологів: навчання технік розслаблення та
