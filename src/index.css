@@ -11,7 +11,7 @@ body {
 }
 
 .about-page {
-  @apply bg-[url('/images/background-about.png')] bg-cover bg-no-repeat min-h-screen text-[16px] md:text-[17px] w-full;
+  @apply bg-[url('/images/background-about.jpg')] bg-cover bg-no-repeat min-h-screen text-[16px] md:text-[17px] w-full;
 }
 
 .about-page p,
@@ -22,15 +22,15 @@ body {
 }
 
 .doula-page {
-  @apply bg-[url('/images/doula-bg-sm.png')] md:bg-[url('/images/doula-bg-new.png')] bg-cover bg-center md:bg-right-top bg-no-repeat min-h-screen w-full text-[16px] md:text-[17px];
+  @apply bg-[url('/images/doula-bg-sm.jpg')] md:bg-[url('/images/doula-bg.jpg')] bg-cover bg-center md:bg-right-top bg-no-repeat min-h-screen w-full text-[16px] md:text-[17px];
 }
 
 .doula-postpartum-page {
-  @apply bg-[url('/images/Desktop-5-sm-new.png')] md:bg-[url('/images/Desktop-5-new.png')] bg-cover bg-no-repeat min-h-screen w-full text-[16px] md:text-[17px];
+  @apply bg-[url('/images/postparum-doula-sm.jpg')] md:bg-[url('/images/postpartum-doula-bg.jpg')] bg-cover bg-center md:bg-right-top bg-no-repeat min-h-screen w-full text-[16px] md:text-[17px];
 }
 
 .therapy-page {
-  @apply bg-[url('/images/Desktop-8.png')] bg-cover bg-no-repeat min-h-screen w-full text-[16px] md:text-[17px];
+  @apply bg-[url('/images/therapy-bg.jpg')] bg-cover bg-no-repeat min-h-screen w-full text-[16px] md:text-[17px];
 }
 
 .services {

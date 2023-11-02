@@ -54,7 +54,7 @@ const About = () => {
         </div>
 
         <img
-          src="/images/heroPic.png"
+          src="/images/heroPic.jpg"
           className="md:order-2 w-[350px] rounded-md shadow-xl mb-8 md:md-0 ml-0 md:ml-8"
         />
       </div>
