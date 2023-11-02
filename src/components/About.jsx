@@ -3,10 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <div className="about-page py-8 md:py-16 px-6 lg:px-0">
-      <div className="grid grid-cols-1 md:grid-cols-2 max-w-[80rem] gap-6 md:gap-20 items-center lg:items-start mx-auto">
-        <div>
+      <div className=" max-w-[60rem] items-center md:items-start mx-auto flex md:flex-row flex-nowrap flex-col">
+        <div className="order-1 md:order-0">
           <div className="text-lg md:text-2xl text-primary uppercase mb-4 md:mb-8">
-            Привіт. Мене звати Альона Єрмакова.
+            Привіт! <br />
+            Мене звати Альона&nbsp;Єрмакова
           </div>
           <p>
             Я засновник проекту{" "}
@@ -57,12 +58,11 @@ const About = () => {
             віднайти/відчути гармонію і красу життя.
           </p>
         </div>
-        <div>
-          <img
-            src="/images/heroPic.png"
-            className="w-[350px] h-[400px] lg:w-[450px] lg:h-[500px] rounded-md shadow-xl"
-          />
-        </div>
+
+        <img
+          src="/images/heroPic.png"
+          className="md:order-2 w-[350px] rounded-md shadow-xl"
+        />
       </div>
     </div>
   );

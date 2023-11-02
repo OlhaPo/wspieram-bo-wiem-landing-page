@@ -39,7 +39,7 @@ body {
 
 /* Style the dropdown content (hidden by default) */
 .dropdown-content {
-  @apply absolute bg-[#F4F4F4] min-w-[160px] z-[1000] mt-2;
+  @apply absolute bg-[#F4F4F4] min-w-[250px] z-[1000] mt-2 shadow-md shadow-slate-600/50;
 }
 
 /* Style dropdown links */
@@ -69,7 +69,7 @@ h2 {
 }
 
 .contacts {
-  @apply border-t border-primary py-8 text-lg flex flex-col lg:flex-row items-center justify-around gap-8 lg:gap-0;
+  @apply border-t border-primary py-8 text-[15px] lg:text-lg flex flex-col lg:flex-row items-center justify-around gap-8 lg:gap-0;
 }
 
 .link-hover {

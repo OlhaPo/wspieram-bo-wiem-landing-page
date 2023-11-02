@@ -15,7 +15,7 @@ const Footer = () => {
           alt="Wspieram bo wiem logo"
           className="h-12 w-12"
         />
-        <span>Wspieram, bo wiem...</span>
+        <span>Wspieram, bo&nbsp;wiem...</span>
       </div>
       <div className="flex flex-col items-center md:flex-row gap-1 md:gap-3">
         <div className="flex md:inline-flex items-center gap-1">
