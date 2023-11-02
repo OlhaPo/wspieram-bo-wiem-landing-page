@@ -1,12 +1,13 @@
 import React, { useEffect, useRef, useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose, AiOutlineDown } from "react-icons/ai";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const NavMenu = () => {
   const [isOpenNav, setIsOpenNav] = useState(false);
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const btnRef = useRef();
+  const navigate = useNavigate();
 
   useEffect(() => {
     const closeDropdown = (e) => {
@@ -19,11 +20,19 @@ const NavMenu = () => {
   }, []);
 
   const handleNav = () => {
+    console.log("handleNav");
     setIsOpenNav(!isOpenNav);
   };
 
   const handleDropdownMenu = () => {
     setIsDropdownOpen(!isDropdownOpen);
+  };
+
+  const navigateOnMobile = (url, e) => {
+    console.log(url);
+    e.preventDefault();
+    setIsOpenNav(false);
+    navigate(url);
   };
 
   return (
@@ -33,23 +42,35 @@ const NavMenu = () => {
           <AiOutlineClose
             size={28}
             className="absolute right-6 top-6"
-            onClick={handleNav}
+            onClick={() => handleNav()}
           />
-          <Link to="/about" className="hover:text-primary">
+          <Link
+            onClick={(e) => navigateOnMobile("/about", e)}
+            className="hover:text-primary"
+          >
             Про мене
           </Link>
           <span className="inline-flex items-baseline gap-1 hover:text-primary">
             Послуги:
           </span>
-          <a href="/doula" className="hover:text-primary">
+          <Link
+            onClick={(e) => navigateOnMobile("/doula", e)}
+            className="hover:text-primary"
+          >
             Доула
-          </a>{" "}
-          <a href="/postpartum-doula" className="hover:text-primary">
+          </Link>{" "}
+          <Link
+            onClick={(e) => navigateOnMobile("/postpartum-doula", e)}
+            className="hover:text-primary"
+          >
             Післяпологова доула
-          </a>{" "}
-          <a href="/therapy" className="hover:text-primary">
+          </Link>{" "}
+          <Link
+            onClick={(e) => navigateOnMobile("/therapy", e)}
+            className="hover:text-primary"
+          >
             Психологічна підтримка/консультування
-          </a>
+          </Link>
           <a href="#contacts">Контакти</a>
           <a href="tel:+48570327545" className="link-button">
             Запис на консультацію
@@ -58,7 +79,7 @@ const NavMenu = () => {
       ) : null}
       <div className="max-w-[70rem] mx-auto flex flex-row justify-around xl:justify-between items-center py-4">
         <div>
-          <a href="/" className="inline-flex gap-3 lg:gap-4 items-center">
+          <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
               src="./logo-4.png"
               alt="Wspieram bo wiem logo"
@@ -67,20 +88,22 @@ const NavMenu = () => {
             <span className="text-lg md:text-xl lg:text-2xl italic text-primary">
               Wspieram, bo wiem...
             </span>
-          </a>
+          </Link>
         </div>
 
         <div>
           <BiMenu
             size={30}
-            onClick={handleNav}
+            onClick={() => handleNav()}
             className="md:hidden z-[140] text-primary"
           />
         </div>
+
+        {/* Desktop menu */}
         <div className="hidden md:inline-flex md:gap-4 lg:gap-8 items-center">
-          <a href="/about" className="hover:text-primary">
+          <Link to="/about" className="hover:text-primary">
             Про мене
-          </a>
+          </Link>
           <button ref={btnRef} onClick={handleDropdownMenu}>
             <div className="services">
               <span className="inline-flex items-baseline gap-1 hover:text-primary">
@@ -89,19 +112,19 @@ const NavMenu = () => {
               {isDropdownOpen ? (
                 <ul className="dropdown-content">
                   <li>
-                    <a href="/doula" className="hover:text-primary">
+                    <Link to="/doula" className="hover:text-primary">
                       Доула
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/postpartum-doula" className="hover:text-primary">
+                    <Link to="/postpartum-doula" className="hover:text-primary">
                       Післяпологова доула
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="/therapy" className="hover:text-primary">
+                    <Link to="/therapy" className="hover:text-primary">
                       Психологічна підтримка/консультування
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               ) : null}
