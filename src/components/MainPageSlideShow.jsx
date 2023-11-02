@@ -78,7 +78,7 @@ const MainPageSlideShow = () => {
               </p>
               <div className="mt-5">
                 <Link
-                  to="/doula-postpartum"
+                  to="/postpartum-doula"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
                   Дізнатися більше
