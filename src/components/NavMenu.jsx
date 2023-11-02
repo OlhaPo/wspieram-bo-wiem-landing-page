@@ -133,7 +133,7 @@ const NavMenu = () => {
           <a href="#contacts" className="hover:text-primary">
             Контакти
           </a>
-          <a href="#" className="link-button">
+          <a href="#contacts" className="link-button">
             Запис на консультацію
           </a>
         </div>
