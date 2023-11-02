@@ -18,7 +18,7 @@ const Footer = () => {
         <span>Wspieram, bo&nbsp;wiem...</span>
       </div>
 
-      <div className="flex flex-col items-center md:flex-row gap-1 md:gap-5 lg:gap-8">
+      <div className="flex flex-col items-center md:flex-row gap-2 md:gap-5 lg:gap-8">
         <div className="flex md:inline-flex items-center gap-1">
           <GoLocation className="text-primary" size={20} />
           Бельсько-Б&lsquo;яла
