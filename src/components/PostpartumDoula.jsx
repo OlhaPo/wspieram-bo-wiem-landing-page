@@ -28,7 +28,7 @@ const PostpartumDoula = () => {
           <span>
             Які послуги я можу запропонувати вам у ролі doula postpartum?
           </span>{" "}
-          <ul className="italic">
+          <ul className="custom-list italic">
             <li>підтримка та налагодження грудного вигодовування;</li>
             <li>допомога у Вашому емоційному та фізичному відновленні;</li>
             <li>супровід по догляду за новонародженим;</li>

@@ -71,7 +71,7 @@ const MainPageSlideShow = () => {
           </div>
           <div className="custom-slide">
             <img src="./images/slide-3.jpg" alt="Postpartum doula" />
-            <div className="text-overlay left-[50%] lg:left-[55%] text-left text-xs md:text-[150%] leading-2 md:leading-8 font-light top-[5%] md:top-[20%] lg:top-[35%]">
+            <div className="text-overlay left-[50%] md:left-[55%] text-left text-xs md:text-[150%] leading-2 md:leading-8 font-light top-[5%] md:top-[20%] lg:top-[35%]">
               <p>
                 Всебічна підтримка мами (батьків) на шляху становлення тісного
                 контакту з новонародженим малям

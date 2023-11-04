@@ -1,14 +1,35 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   return (
     <div className="services-main-page-section">
       <div>
+        <h1 className="text-lg md:text-2xl text-primary uppercase mb-4">
+          Привіт! Мене звати Альона&nbsp;Єрмакова
+        </h1>{" "}
         <p>
-          <span className="text-lg md:text-2xl text-primary uppercase mb-8">
-            Доула
-          </span>
-          <ul>
+          Я засновник проекту "Wspieram, bo wiem..."/"Підтримую, оскільки
+          знаю...", психолог, акушерка, доула, післяпологова доула.
+        </p>
+        <p className="text-red-900">
+          ПРОПОЗИЦІЯ: Дізнатися більше з посиланням на сторінку
+        </p>
+        <Link
+          to="/about"
+          className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
+        >
+          Дізнатися більше
+        </Link>
+      </div>
+      <div className="text-red-900">TODO: Речення, перехід до послуги</div>
+      <div>
+        <h2 className="text-lg md:text-2xl text-primary uppercase">
+          Супровід та інформаційно/фізично/психологічна підтримка під час
+          вагітності та пологів
+        </h2>
+        <p>
+          <ul className="custom-list">
             <li>підтримка під час вагітності;</li>
             <li>
               підготовка до пологів: навчання технік розслаблення та
@@ -23,11 +44,12 @@ const Services = () => {
         </p>
       </div>
       <div>
+        <h2 className="text-lg md:text-2xl text-primary uppercase">
+          Всебічна підтримка мами (батьків) на шляху становлення тісного
+          контакту з новонародженим малям
+        </h2>
         <p>
-          <span className="text-lg md:text-2xl text-primary uppercase mb-8">
-            Післяпологова доула
-          </span>
-          <ul>
+          <ul className="custom-list">
             <li>підтримка та налагодження грудного вигодовування;</li>
             <li>допомога у Вашому емоційному та фізичному відновленні;</li>
             <li>супровід по догляду за новонародженим;</li>
@@ -43,9 +65,9 @@ const Services = () => {
         </p>
       </div>
       <div>
-        <span className="text-lg md:text-2xl text-primary uppercase mb-8">
-          Психологічна підтримка/консультування
-        </span>
+        <h2 className="text-lg md:text-2xl text-primary uppercase">
+          Підтримка психологічної гармонії в сімейних стосунках
+        </h2>
         <p>
           Якщо Ваша сім'я переживає складний період: часті і "яскраві"
           конфлікти, поява дітей, розподілення сімейних ролей та обов'язків,
@@ -53,6 +75,9 @@ const Services = () => {
           шляху до пошуку найоптимальніших для Вас вирішень цих складних
           життєвих ситуацій.
         </p>
+      </div>
+      <div className="text-red-900">
+        TODO: Фінальний заклик, речення підтримки
       </div>
     </div>
   );

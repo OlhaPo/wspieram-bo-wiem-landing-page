@@ -71,7 +71,7 @@ const Doula = () => {
         </p>
         <p className="my-8 text-[17px] md:text-[18px] leading-8">
           <span>З чим я можу вам допомогти?</span>
-          <ul className="italic">
+          <ul className="custom-list italic">
             <li>Підтримка під час вагітності;</li>
             <li>
               Підготовка до пологів: навчання технік розслаблення та
