@@ -24,7 +24,7 @@ const About = () => {
             батьківства, до себе самої... Пам'ятаю і знаю
           </p>
           <p>
-            <ul className="italic my-8 text-[17px] md:text-[18px] leading-8">
+            <ul className="custom-list italic my-8 leading-8">
               <li>Як важливо для людини вміти любити життя і себе в ньому;</li>
               <li>
                 {" "}

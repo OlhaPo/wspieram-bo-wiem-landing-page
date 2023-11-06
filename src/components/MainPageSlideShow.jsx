@@ -47,16 +47,17 @@ const MainPageSlideShow = () => {
                   to="/about"
                   className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
                 >
-                  Дізнатися більше
+                  Читати далі
                 </Link>
               </div>
             </div>
           </div>
           <div className="custom-slide">
             <img src="./images/slide-2.jpg" alt="Доула" />
-            <div className="text-overlay right-[48%] md:right-[55%] left-0 md:left-[5%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%]">
+            <div className="text-overlay right-[48%] md:right-[55%] left-0 md:left-[5%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[30%]">
+              <p className="uppercase mb-2">Doula:</p>
               <p>
-                Супровід та інформаційно/фізично/психологічна підтримка під час
+                cупровід та інформаційно/фізично/психологічна підтримка під час
                 вагітності та пологів
               </p>
               <div className="mt-5">
@@ -64,7 +65,7 @@ const MainPageSlideShow = () => {
                   to="/doula"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
-                  Дізнатися більше
+                  Читати далі
                 </Link>
               </div>
             </div>
@@ -72,8 +73,9 @@ const MainPageSlideShow = () => {
           <div className="custom-slide">
             <img src="./images/slide-3.jpg" alt="Postpartum doula" />
             <div className="text-overlay left-[50%] md:left-[55%] text-left text-xs md:text-[150%] leading-2 md:leading-8 font-light top-[5%] md:top-[20%] lg:top-[35%]">
+              <p className="uppercase mb-2">Doula postpartum:</p>
               <p>
-                Всебічна підтримка мами (батьків) на шляху становлення тісного
+                всебічна підтримка мами (батьків) на шляху становлення тісного
                 контакту з новонародженим малям
               </p>
               <div className="mt-5">
@@ -81,21 +83,22 @@ const MainPageSlideShow = () => {
                   to="/postpartum-doula"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
-                  Дізнатися більше
+                  Читати далі
                 </Link>
               </div>
             </div>
           </div>
           <div className="custom-slide">
             <img src="./images/slide-4-new.jpg" alt="Консультування" />
-            <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-[5%]">
-              <p>Підтримка психологічної гармонії в сімейних стосунках</p>
+            <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-0">
+              <p className="uppercase mb-2 md:mb-6">Консультування:</p>
+              <p>підтримка психологічної гармонії в сімейних стосунках</p>
               <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">
                 <Link
                   to="/therapy"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
-                  Дізнатися більше
+                  Читати далі
                 </Link>
               </div>
             </div>

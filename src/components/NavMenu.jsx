@@ -81,9 +81,9 @@ const NavMenu = () => {
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
-              src="./logo-4.png"
+              src="./logo-new.png"
               alt="Wspieram bo wiem logo"
-              className="w-10 h-10 lg:h-16 lg:w-16"
+              className="w-10 h-10 lg:h-[76px] lg:w-[76px]"
             />{" "}
             <span className="text-base lg:text-2xl italic text-primary lg:leading-10">
               Wspieram, bo wiem...
