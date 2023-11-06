@@ -43,7 +43,11 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex md:inline-flex items-center gap-5 text-primary">
-        <a href="tel:+48570327545" target="_blank" className="link-hover">
+        <a
+          href="https://t.me/+48570327545"
+          target="_blank"
+          className="link-hover"
+        >
           <PiTelegramLogo size={25} />
         </a>
         <a
