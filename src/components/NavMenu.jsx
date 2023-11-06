@@ -57,13 +57,13 @@ const NavMenu = () => {
             onClick={(e) => navigateOnMobile("/doula", e)}
             className="hover:text-primary"
           >
-            Доула
+            Doula
           </Link>{" "}
           <Link
             onClick={(e) => navigateOnMobile("/postpartum-doula", e)}
             className="hover:text-primary"
           >
-            Післяпологова доула
+            Doula postpartum
           </Link>{" "}
           <Link
             onClick={(e) => navigateOnMobile("/therapy", e)}
@@ -85,8 +85,10 @@ const NavMenu = () => {
               alt="Wspieram bo wiem logo"
               className="w-10 h-10 lg:h-16 lg:w-16"
             />{" "}
-            <span className="text-lg md:text-xl lg:text-2xl italic text-primary">
+            <span className="text-base lg:text-2xl italic text-primary lg:leading-10">
               Wspieram, bo wiem...
+              <br />
+              Підтримую, оскільки знаю
             </span>
           </Link>
         </div>
@@ -113,12 +115,12 @@ const NavMenu = () => {
                 <ul className="dropdown-content">
                   <li>
                     <Link to="/doula" className="hover:text-primary">
-                      Доула
+                      Doula
                     </Link>
                   </li>
                   <li>
                     <Link to="/postpartum-doula" className="hover:text-primary">
-                      Післяпологова доула
+                      Doula postpartum
                     </Link>
                   </li>
                   <li>

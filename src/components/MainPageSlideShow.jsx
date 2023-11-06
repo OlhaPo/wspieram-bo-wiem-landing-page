@@ -87,7 +87,7 @@ const MainPageSlideShow = () => {
             </div>
           </div>
           <div className="custom-slide">
-            <img src="./images/slide-4.jpg" alt="Консультування" />
+            <img src="./images/slide-4-new.jpg" alt="Консультування" />
             <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-[5%]">
               <p>Підтримка психологічної гармонії в сімейних стосунках</p>
               <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">

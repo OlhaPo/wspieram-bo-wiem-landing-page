@@ -12,9 +12,6 @@ const Services = () => {
           Я засновник проекту "Wspieram, bo wiem..."/"Підтримую, оскільки
           знаю...", психолог, акушерка, доула, післяпологова доула.
         </p>
-        <p className="text-red-900">
-          ПРОПОЗИЦІЯ: Дізнатися більше з посиланням на сторінку
-        </p>
         <Link
           to="/about"
           className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
@@ -25,7 +22,7 @@ const Services = () => {
       <div className="text-red-900">TODO: Речення, перехід до послуги</div>
       <div>
         <h2 className="text-lg md:text-2xl text-primary uppercase">
-          Супровід та інформаційно/фізично/психологічна підтримка під час
+          Doula: cупровід та інформаційно/фізично/психологічна підтримка під час
           вагітності та пологів
         </h2>
         <p>
@@ -42,11 +39,17 @@ const Services = () => {
             </li>
           </ul>
         </p>
+        <Link
+          to="/doula"
+          className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
+        >
+          Дізнатися більше
+        </Link>
       </div>
       <div>
         <h2 className="text-lg md:text-2xl text-primary uppercase">
-          Всебічна підтримка мами (батьків) на шляху становлення тісного
-          контакту з новонародженим малям
+          Doula postpartum: всебічна підтримка мами (батьків) на шляху
+          становлення тісного контакту з новонародженим малям
         </h2>
         <p>
           <ul className="custom-list">
@@ -63,10 +66,16 @@ const Services = () => {
             </li>
           </ul>
         </p>
+        <Link
+          to="/postpartum-doula"
+          className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
+        >
+          Дізнатися більше
+        </Link>
       </div>
       <div>
         <h2 className="text-lg md:text-2xl text-primary uppercase">
-          Підтримка психологічної гармонії в сімейних стосунках
+          Консультування: підтримка психологічної гармонії в сімейних стосунках
         </h2>
         <p>
           Якщо Ваша сім'я переживає складний період: часті і "яскраві"
@@ -75,6 +84,12 @@ const Services = () => {
           шляху до пошуку найоптимальніших для Вас вирішень цих складних
           життєвих ситуацій.
         </p>
+        <Link
+          to="/therapy"
+          className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
+        >
+          Дізнатися більше
+        </Link>
       </div>
       <div className="text-red-900">
         TODO: Фінальний заклик, речення підтримки
