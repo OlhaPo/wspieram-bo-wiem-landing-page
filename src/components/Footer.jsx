@@ -46,19 +46,22 @@ const Footer = () => {
         <a href="tel:+48570327545" target="_blank" className="link-hover">
           <PiTelegramLogo size={25} />
         </a>
-        <a href="tel:" target="_blank" className="link-hover">
+        <a
+          href="https://www.messenger.com/t/100026016184646"
+          target="_blank"
+          className="link-hover"
+        >
           <LiaFacebookMessenger size={30} />
         </a>
-
         <a
-          href="https://www.facebook.com/"
+          href="https://www.facebook.com/profile.php?id=100026016184646"
           target="_blank"
           className="link-hover"
         >
           <BiLogoFacebook size={26} />
         </a>
         <a
-          href="https://www.instagram.com"
+          href="https://www.instagram.com/alona_yermakova/?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D"
           target="_blank"
           className="link-hover"
         >
