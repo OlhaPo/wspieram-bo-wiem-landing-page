@@ -81,14 +81,14 @@ const NavMenu = () => {
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
-              src="./logo-new.png"
+              src="./logo-new-1.png"
               alt="Wspieram bo wiem logo"
-              className="w-10 h-10 lg:h-[76px] lg:w-[76px]"
+              className="w-10 h-10 lg:h-[90px] lg:w-[90px]"
             />{" "}
-            <span className="text-base lg:text-2xl italic text-primary lg:leading-10">
+            <span className="text-base lg:text-2xl italic text-[#E0A811] lg:leading-10">
               Wspieram, bo wiem...
               <br />
-              Підтримую, оскільки знаю
+              <span className="text-[#E0A811]">Підтримую, оскільки знаю</span>
             </span>
           </Link>
         </div>
