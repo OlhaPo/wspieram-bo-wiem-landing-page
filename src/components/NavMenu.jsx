@@ -85,7 +85,7 @@ const NavMenu = () => {
               alt="Wspieram bo wiem logo"
               className="w-10 h-10 lg:h-[90px] lg:w-[90px]"
             />{" "}
-            <span className="text-base lg:text-2xl italic text-[#E0A811] lg:leading-10">
+            <span className="text-base lg:text-2xl italic text-[#B78629] lg:leading-10">
               Wspieram, bo wiem...
               <br />
               <span className="text-[#E0A811]">Підтримую, оскільки знаю</span>
