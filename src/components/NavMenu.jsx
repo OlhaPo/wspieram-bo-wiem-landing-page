@@ -85,7 +85,7 @@ const NavMenu = () => {
               alt="Wspieram bo wiem logo"
               className="w-16 h-16 lg:h-[90px] lg:w-[90px]"
             />{" "}
-            <div className=" text-[#ba9833] text-5xl leading-8">
+            <div className=" text-[#ba9833] leading-6 md:leading-8">
               <span className="header-pacifico text-lg md:text-2xl">
                 Wspieram, bo wiem...
               </span>
