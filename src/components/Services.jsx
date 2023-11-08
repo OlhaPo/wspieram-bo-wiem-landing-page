@@ -19,11 +19,12 @@ const Services = () => {
           Дізнатися більше
         </Link>
       </div>
-      <div className="text-red-900">TODO: Речення, перехід до послуги</div>
       <div>
-        <h2 className="text-lg md:text-2xl text-primary uppercase">
-          Doula: cупровід та інформаційно/фізично/психологічна підтримка під час
-          вагітності та пологів
+        <p className="mb-4">Отже, чим я зможу Вам допомогти:</p>
+        <h2 className=" text-primary">
+          <span className="uppercase">Doula:</span> cупровід та
+          інформаційно/фізично/психологічна підтримка під час вагітності та
+          пологів
         </h2>
         <p>
           <ul className="custom-list">
@@ -47,9 +48,10 @@ const Services = () => {
         </Link>
       </div>
       <div>
-        <h2 className="text-lg md:text-2xl text-primary uppercase">
-          Doula postpartum: всебічна підтримка мами (батьків) на шляху
-          становлення тісного контакту з новонародженим малям
+        <h2 className="text-lg md:text-2xl text-primary">
+          <span className="uppercase">Doula postpartum:</span> всебічна
+          підтримка мами (батьків) на шляху становлення тісного контакту з
+          новонародженим малям
         </h2>
         <p>
           <ul className="custom-list">
@@ -74,8 +76,9 @@ const Services = () => {
         </Link>
       </div>
       <div>
-        <h2 className="text-lg md:text-2xl text-primary uppercase">
-          Консультування: підтримка психологічної гармонії в сімейних стосунках
+        <h2 className="text-lg md:text-2xl text-primary">
+          <span className="uppercase">Консультування:</span> підтримка
+          психологічної гармонії в сімейних стосунках
         </h2>
         <p>
           Якщо Ваша сім'я переживає складний період: часті і "яскраві"

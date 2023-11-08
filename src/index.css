@@ -2,8 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* @font-face {
+  font-family: "Estonia";
+  src: url(/fonts/Pacifico-Regular.ttf);
+} */
+
 body {
   @apply bg-[#F4F4F4];
+}
+
+.header-pacifico {
+  font-family: "Pacifico", cursive;
+}
+.header-marck {
+  font-family: "Marck Script", cursive;
+}
+
+.header-caveat {
+  font-family: "Caveat", cursive;
 }
 
 .nav {
