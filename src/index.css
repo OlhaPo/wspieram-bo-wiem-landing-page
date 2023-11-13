@@ -7,8 +7,12 @@
   src: url(/fonts/Pacifico-Regular.ttf);
 } */
 
+/* body {
+  @apply bg-[#FFFFFF];
+} */
+
 body {
-  @apply bg-[#F4F4F4];
+  @apply bg-[#F2F2F2];
 }
 
 .header-pacifico {
@@ -23,7 +27,7 @@ body {
 }
 
 .nav {
-  @apply text-base lg:text-lg md:pb-3 md:pt-2;
+  @apply text-base lg:text-lg md:pb-4 md:pt-4 bg-white;
 }
 
 .about-page {
@@ -106,5 +110,5 @@ h2 {
 }
 
 .link-button {
-  @apply border-primary border-2 px-3 py-2 text-primary rounded-md bg-white;
+  @apply border-[#D86688] border-2 px-3 py-2 text-[white] rounded-md bg-[#D86284];
 }

@@ -4,7 +4,7 @@ const Doula = () => {
   return (
     <div className="doula-page leading-8 py-8 md:py-16 px-10 lg:px-0">
       <div className="max-w-[55rem] mx-auto">
-        <div className="text-lg md:text-2xl text-primary uppercase mb-8">
+        <div className="text-lg md:text-2xl text-[#CE3964] uppercase mb-8">
           Doula
         </div>
         <p>
@@ -51,7 +51,7 @@ const Doula = () => {
           що жінка через втому і виснаження часами втрачає здатність мислити
           раціонально і, ймовірно, погоджується на багато чого, аби народити
           якомога швидше. Доула стежить, щоб ніхто не скористався цими
-          слабкостями під час пологів - захищає та відстоює права та гідність
+          слабкостями під час пологів — захищає та відстоює права та гідність
           жінки в пологових процесах.
         </p>
         <p>

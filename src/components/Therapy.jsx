@@ -5,7 +5,7 @@ const Therapy = () => {
     <div className="therapy-page leading-8 py-8 md:py-16 px-10 lg:px-0">
       <div className="max-w-[50rem] mx-auto">
         <div className="text-lg md:text-2xl text-primary uppercase mb-8">
-          Психологічна підтримка/консультування
+          Психологічна підтримка
         </div>{" "}
         <p>
           Сім’я, особисто для мене — це велика цінність в житті людини. Сім'я —

@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 
 const MainPageSlideShow = () => {
   return (
-    <div>
+    <div className="md:pt-10">
       <div className="mx-auto max-w-[70rem]">
         <Carousel
           showStatus={false}
@@ -45,7 +45,7 @@ const MainPageSlideShow = () => {
               <div className="mt-5">
                 <Link
                   to="/about"
-                  className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
+                  className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
                   Читати далі
                 </Link>
@@ -91,7 +91,7 @@ const MainPageSlideShow = () => {
           <div className="custom-slide">
             <img src="./images/slide-4-new.jpg" alt="Консультування" />
             <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-0">
-              <p className="uppercase mb-2 md:mb-6">Консультування:</p>
+              <p className="uppercase mb-2 md:mb-6">Психологічна підтримка:</p>
               <p>підтримка психологічної гармонії в сімейних стосунках</p>
               <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">
                 <Link

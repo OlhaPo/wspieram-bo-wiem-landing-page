@@ -69,7 +69,7 @@ const NavMenu = () => {
             onClick={(e) => navigateOnMobile("/therapy", e)}
             className="hover:text-primary"
           >
-            Психологічна підтримка/консультування
+            Психологічна підтримка
           </Link>
           <a href="#contacts">Контакти</a>
           <a href="tel:+48570327545" className="link-button">
@@ -81,26 +81,18 @@ const NavMenu = () => {
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
-              src="./logo-new.png"
+              src="./logo-pink-5.png"
               alt="Wspieram bo wiem logo"
-              className="w-16 h-16 lg:h-[90px] lg:w-[90px]"
+              className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
             />{" "}
-            <div className=" text-[#ba9833] leading-6 md:leading-8">
-              <span className="header-pacifico text-lg md:text-2xl">
-                Wspieram, bo wiem...
-              </span>
+            {/*  */}
+            <div className="text-lg text-[#D86284] italic md:text-2xl leading-6 md:leading-10">
+              <span>Wspieram, bo wiem...</span>
               <br />
-              <span className="header-marck text-lg md:text-3xl">
-                Підтримую, оскільки знаю
-              </span>{" "}
-              <br />
-              <span className="header-caveat text-lg md:text-3xl">
-                Підтримую, оскільки знаю
-              </span>
+              <span>Підтримую, оскільки знаю</span> <br />
             </div>
           </Link>
         </div>
-
         <div>
           <BiMenu
             size={30}
@@ -108,7 +100,6 @@ const NavMenu = () => {
             className="md:hidden z-[140] text-primary"
           />
         </div>
-
         {/* Desktop menu */}
         <div className="hidden md:inline-flex md:gap-4 lg:gap-8 items-center">
           <Link to="/about" className="hover:text-primary">
@@ -133,7 +124,7 @@ const NavMenu = () => {
                   </li>
                   <li>
                     <Link to="/therapy" className="hover:text-primary">
-                      Психологічна підтримка/консультування
+                      Психологічна підтримка
                     </Link>
                   </li>
                 </ul>
@@ -147,6 +138,33 @@ const NavMenu = () => {
             Запис на консультацію
           </a>
         </div>
+      </div>
+      <div className="flex justify-evenly">
+        <img
+          src="./logo-pink-3.png"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />{" "}
+        <img
+          src="./logo-pink-6.png"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />
+        <img
+          src="./logo-pink-7.png"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />
+        <img
+          src="./logo-pink-8.png"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />
+        <img
+          src="./logo-pink-9.png"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />
       </div>
     </div>
   );
