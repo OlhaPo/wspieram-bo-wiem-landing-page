@@ -97,7 +97,7 @@ const NavMenu = () => {
           <BiMenu
             size={30}
             onClick={() => handleNav()}
-            className="md:hidden z-[140] text-primary"
+            className="md:hidden z-[140] text-[gray]"
           />
         </div>
         {/* Desktop menu */}
