@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         secondary: "#8c577a",
-        primary: "#8c577a",
+        primary: "#B770B1",
       },
     },
   },

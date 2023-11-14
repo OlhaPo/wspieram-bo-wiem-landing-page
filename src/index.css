@@ -7,13 +7,13 @@
   src: url(/fonts/Pacifico-Regular.ttf);
 } */
 
-/* body {
-  @apply bg-[#FFFFFF];
-} */
-
 body {
-  @apply bg-[#F2F2F2];
+  @apply bg-[#FFFFFF];
 }
+
+/* body {
+  @apply bg-[#F2F2F2];
+} */
 
 .header-pacifico {
   font-family: "Pacifico", cursive;
@@ -110,5 +110,5 @@ h2 {
 }
 
 .link-button {
-  @apply border-[#D86688] border-2 px-3 py-2 text-[white] rounded-md bg-[#D86284];
+  @apply border-[gray] border-2 px-3 py-2 text-[gray] rounded-md;
 }

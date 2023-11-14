@@ -81,15 +81,15 @@ const NavMenu = () => {
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
-              src="./logo-pink-5.png"
+              src="./logo-pink-17.jpg"
               alt="Wspieram bo wiem logo"
               className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
             />{" "}
             {/*  */}
-            <div className="text-lg text-[#D86284] italic md:text-2xl leading-6 md:leading-10">
+            <div className="text-lg text-[#D8927D] italic md:text-xl leading-6 md:leading-10">
               <span>Wspieram, bo wiem...</span>
               <br />
-              <span>Підтримую, оскільки знаю</span> <br />
+              <span>Підтримую, тому що знаю</span> <br />
             </div>
           </Link>
         </div>
@@ -139,33 +139,44 @@ const NavMenu = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-evenly">
+      {/* <div className="flex justify-evenly">
         <img
-          src="./logo-pink-3.png"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
-        />{" "}
-        <img
-          src="./logo-pink-6.png"
+          src="./logo-pink-18.jpg"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
         />
         <img
-          src="./logo-pink-7.png"
+          src="./logo-pink-10.jpg"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />
+
+        <img
+          src="./logo-pink-11.jpg"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
         />
         <img
-          src="./logo-pink-8.png"
+          src="./logo-pink-13.jpg"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
         />
         <img
-          src="./logo-pink-9.png"
+          src="./logo-pink-14.jpg"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
         />
-      </div>
+        <img
+          src="./logo-pink-15.jpg"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />
+        <img
+          src="./logo-pink-10.png"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+        />
+      </div> */}
     </div>
   );
 };

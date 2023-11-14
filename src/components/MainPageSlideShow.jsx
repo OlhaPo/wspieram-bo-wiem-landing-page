@@ -36,7 +36,7 @@ const MainPageSlideShow = () => {
           }}
         >
           <div className="custom-slide">
-            <img src="./images/slide-1.jpg" alt="Про Альону Єрмакову" />
+            <img src="./images/slide-3-new.jpg" alt="Про Альону Єрмакову" />
             <div className="text-overlay right-[55%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%]">
               <p className="text-black">
                 Альона Єрмакова - психолог, акушерка, доула, післяпологова
