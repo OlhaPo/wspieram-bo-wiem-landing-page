@@ -77,7 +77,7 @@ const NavMenu = () => {
           </a>
         </div>
       ) : null}
-      <div className="max-w-[70rem] mx-auto flex flex-row justify-around xl:justify-between items-center py-4">
+      <div className="max-w-[65rem] mx-auto flex flex-row justify-around xl:justify-between items-center py-4">
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
@@ -86,7 +86,7 @@ const NavMenu = () => {
               className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
             />{" "}
             {/*  */}
-            <div className="text-lg text-[#D8927D] italic md:text-xl leading-6 md:leading-10">
+            <div className="text-lg text-[#D8927D] italic md:text-xl leading-8 md:leading-9">
               <span>Wspieram, bo wiem...</span>
               <br />
               <span>Підтримую, тому що знаю</span> <br />
