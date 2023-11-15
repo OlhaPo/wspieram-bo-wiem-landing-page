@@ -26,6 +26,10 @@ body {
   font-family: "Caveat", cursive;
 }
 
+.header-great-vibes {
+  font-family: "Great Vibes", cursive;
+}
+
 .nav {
   @apply text-base lg:text-lg md:pb-4 md:pt-4;
 }

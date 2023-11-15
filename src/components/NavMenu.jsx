@@ -81,15 +81,18 @@ const NavMenu = () => {
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
-              src="./logo-pink-21.jpg"
+              src="./logo-pink-10.jpg"
               alt="Wspieram bo wiem logo"
               className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
             />{" "}
             {/*  */}
-            <div className="text-lg italic md:text-2xl leading-8 md:leading-10">
-              <span>Wspieram, bo wiem...</span>
-              <br />
-              <span>Підтримую, тому що знаю</span> <br />
+            <div className="bg-[url('/images/bg-logo-1.png')] bg-cover  flex flex-col">
+              <span className="header-great-vibes text-2xl md:text-4xl">
+                Wspieram, bo wiem...
+              </span>
+              <span className="italic text-lg pl-3">
+                Підтримую, тому що знаю
+              </span>{" "}
             </div>
           </Link>
         </div>
@@ -139,8 +142,8 @@ const NavMenu = () => {
           </a>
         </div>
       </div>
-      <div className="flex justify-evenly">
-        <img
+      {/* <div className="flex justify-evenly">
+         <img
           src="./logo-pink-19.jpg"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
@@ -189,8 +192,8 @@ const NavMenu = () => {
           src="./logo-pink-24.jpg"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        {/* 
+        /> */}
+      {/* 
         
         
         
@@ -198,8 +201,8 @@ const NavMenu = () => {
           src="./logo-pink-10.png"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
-        />  */}
-      </div>
+        /> 
+      </div> */}
     </div>
   );
 };
