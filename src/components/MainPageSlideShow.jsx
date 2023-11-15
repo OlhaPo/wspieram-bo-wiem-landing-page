@@ -89,13 +89,13 @@ const MainPageSlideShow = () => {
             </div>
           </div>
           <div className="custom-slide">
-            <img src="./images/slide-4.jpg" alt="Консультування" />
+            <img src="./images/slide-4.jpg" alt="Підтримка" />
             <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-0">
-              <p className="uppercase mb-2 md:mb-6">Психологічна підтримка:</p>
-              <p>підтримка психологічної гармонії в сімейних стосунках</p>
+              <p className="uppercase mb-2 md:mb-6">Підтримка:</p>
+              <p>підтримка гармонії в сімейних стосунках</p>
               <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">
                 <Link
-                  to="/therapy"
+                  to="/support"
                   className="text-black border-b-2 border-black hover:text-white hover:border-b-0"
                 >
                   Читати далі

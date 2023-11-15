@@ -4,7 +4,7 @@ const Doula = () => {
   return (
     <div className="doula-page leading-8 py-8 md:py-16 px-10 lg:px-0">
       <div className="max-w-[55rem] mx-auto">
-        <div className="text-lg md:text-2xl text-[#CE3964] uppercase mb-8">
+        <div className="text-lg md:text-2xl text-primary uppercase mb-8">
           Doula
         </div>
         <p>

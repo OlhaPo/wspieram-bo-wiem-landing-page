@@ -9,13 +9,18 @@ import { GoLocation } from "react-icons/go";
 const Footer = () => {
   return (
     <div className="contacts" id="contacts">
-      <div className="inline-flex items-center italic gap-2 text-2xl text-primary">
+      <div className="inline-flex items-center italic gap-2 text-2xl">
         <img
-          src="./logo-4.png"
+          src="./logo-pink-10.jpg"
           alt="Wspieram bo wiem logo"
-          className="h-12 w-12"
+          className="w-16 h-16"
         />
-        <span>Wspieram, bo&nbsp;wiem...</span>
+        <div className="bg-[url('/images/bg-logo-10.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
+          <span className="header-great-vibes text-3xl md:text-4xl">
+            Wspieram, bo wiem...
+          </span>
+          <span className="text-lg italic">Підтримую, тому що знаю...</span>
+        </div>
       </div>
 
       <div className="flex flex-col items-center md:flex-row gap-2 md:gap-5 lg:gap-8">

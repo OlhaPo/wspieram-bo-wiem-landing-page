@@ -25,7 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/doula" element={<Doula />} />
         <Route path="/postpartum-doula" element={<PostpartumDoula />} />
-        <Route path="/therapy" element={<Therapy />} />
+        <Route path="/support" element={<Therapy />} />
       </Routes>
 
       <Footer />

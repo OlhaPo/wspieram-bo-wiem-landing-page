@@ -66,13 +66,13 @@ const NavMenu = () => {
             Doula postpartum
           </Link>{" "}
           <Link
-            onClick={(e) => navigateOnMobile("/therapy", e)}
+            onClick={(e) => navigateOnMobile("/support", e)}
             className="hover:text-primary"
           >
-            Психологічна підтримка
+            Підтримка
           </Link>
           <a href="#contacts">Контакти</a>
-          <a href="tel:+48570327545" className="link-button">
+          <a href="tel:+48570327545" className="contact-button">
             Запис на консультацію
           </a>
         </div>
@@ -84,13 +84,14 @@ const NavMenu = () => {
               src="./logo-pink-10.jpg"
               alt="Wspieram bo wiem logo"
               className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-            />{" "}
-            {/*  */}
+            />
             <div className="bg-[url('/images/bg-logo-10.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
-              <span className="header-great-vibes  text-2xl md:text-4xl">
+              <span className="header-great-vibes text-3xl md:text-4xl">
                 Wspieram, bo wiem...
               </span>
-              <span className="text-xl italic">Підтримую, тому що знаю</span>{" "}
+              <span className="text-lg md:text-xl italic">
+                Підтримую, тому що знаю...
+              </span>
             </div>
           </Link>
         </div>
@@ -124,8 +125,8 @@ const NavMenu = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link to="/therapy" className="hover:text-primary">
-                      Психологічна підтримка
+                    <Link to="/support" className="hover:text-primary">
+                      Підтримка
                     </Link>
                   </li>
                 </ul>
@@ -135,72 +136,11 @@ const NavMenu = () => {
           <a href="#contacts" className="hover:text-primary">
             Контакти
           </a>
-          <a href="#contacts" className="link-button">
+          <a href="#contacts" className="contact-button">
             Запис на консультацію
           </a>
         </div>
       </div>
-      {/* <div className="flex justify-evenly">
-         <img
-          src="./logo-pink-19.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-10.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-13.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-12.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-20.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-21.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./Malogo-pink-21.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-22.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-23.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        />
-        <img
-          src="./logo-pink-24.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
-        /> */}
-      {/* 
-        
-        
-        
-       <img
-          src="./logo-pink-10.png"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
-        /> 
-      </div> */}
     </div>
   );
 };

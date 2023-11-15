@@ -12,7 +12,7 @@ const About = () => {
           <p>
             Я засновник проекту{" "}
             <em>
-              &laquo;Wspieram, bo wiem...&raquo; &laquo;Підтримую, оскільки
+              &laquo;Wspieram, bo wiem...&raquo; &laquo;Підтримую, тому що
               знаю...&raquo;
             </em>
             , який був створений з метою надання можливості отримати всебічну
