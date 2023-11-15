@@ -81,12 +81,12 @@ const NavMenu = () => {
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
-              src="./logo-pink-17.jpg"
+              src="./logo-pink-21.jpg"
               alt="Wspieram bo wiem logo"
-              className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+              className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
             />{" "}
             {/*  */}
-            <div className="text-lg text-[#D8927D] italic md:text-xl leading-8 md:leading-9">
+            <div className="text-lg italic md:text-2xl leading-8 md:leading-10">
               <span>Wspieram, bo wiem...</span>
               <br />
               <span>Підтримую, тому що знаю</span> <br />
@@ -139,44 +139,67 @@ const NavMenu = () => {
           </a>
         </div>
       </div>
-      {/* <div className="flex justify-evenly">
+      <div className="flex justify-evenly">
         <img
-          src="./logo-pink-18.jpg"
+          src="./logo-pink-19.jpg"
           alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
         />
         <img
           src="./logo-pink-10.jpg"
           alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
-        />
-
-        <img
-          src="./logo-pink-11.jpg"
-          alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
         />
         <img
           src="./logo-pink-13.jpg"
           alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
         />
         <img
-          src="./logo-pink-14.jpg"
+          src="./logo-pink-12.jpg"
           alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
         />
         <img
-          src="./logo-pink-15.jpg"
+          src="./logo-pink-20.jpg"
           alt="Wspieram bo wiem logo"
-          className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
         />
         <img
+          src="./logo-pink-21.jpg"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
+        />
+        <img
+          src="./Malogo-pink-21.jpg"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
+        />
+        <img
+          src="./logo-pink-22.jpg"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
+        />
+        <img
+          src="./logo-pink-23.jpg"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
+        />
+        <img
+          src="./logo-pink-24.jpg"
+          alt="Wspieram bo wiem logo"
+          className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
+        />
+        {/* 
+        
+        
+        
+       <img
           src="./logo-pink-10.png"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16 lg:h-[80px] lg:w-[80px]"
-        />
-      </div> */}
+        />  */}
+      </div>
     </div>
   );
 };
