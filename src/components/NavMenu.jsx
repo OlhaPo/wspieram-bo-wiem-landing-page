@@ -86,13 +86,11 @@ const NavMenu = () => {
               className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
             />{" "}
             {/*  */}
-            <div className="bg-[url('/images/bg-logo-1.png')] bg-cover  flex flex-col">
-              <span className="header-great-vibes text-2xl md:text-4xl">
+            <div className="bg-[url('/images/bg-logo-10.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
+              <span className="header-great-vibes  text-2xl md:text-4xl">
                 Wspieram, bo wiem...
               </span>
-              <span className="italic text-lg pl-3">
-                Підтримую, тому що знаю
-              </span>{" "}
+              <span className="text-xl italic">Підтримую, тому що знаю</span>{" "}
             </div>
           </Link>
         </div>
