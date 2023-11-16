@@ -78,17 +78,17 @@ const NavMenu = () => {
       ) : null}
       <div className="max-w-[65rem] mx-auto flex flex-row justify-around xl:justify-between items-center py-4">
         <div>
-          <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
+          <Link to="/" className="inline-flex lg:gap-4 items-center">
             <img
               src="./logo.png"
               alt="Wspieram bo wiem logo"
               className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
             />
             <div className="bg-[url('/images/bg-logo.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
-              <span className="header-great-vibes text-3xl md:text-4xl">
+              <span className="header-great-vibes text-2xl md:text-3xl lg:text-4xl">
                 Wspieram, bo wiem...
               </span>
-              <span className="text-lg md:text-xl italic">
+              <span className="text-base lg:text-xl italic">
                 Підтримую, тому що знаю...
               </span>
             </div>
@@ -98,7 +98,7 @@ const NavMenu = () => {
           <BiMenu
             size={30}
             onClick={() => handleNav()}
-            className="md:hidden z-[140] text-[gray]"
+            className="md:hidden z-[140] text-primary"
           />
         </div>
         {/* Desktop menu */}
@@ -132,7 +132,7 @@ const NavMenu = () => {
               ) : null}
             </div>
           </button>
-          <a href="#contacts" className="hover:text-primary">
+          <a href="#contacts" className="hover:text-primary md:hidden lg:block">
             Контакти
           </a>
           <a href="#contacts" className="link-button">

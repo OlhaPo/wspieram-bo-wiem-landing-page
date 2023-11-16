@@ -37,8 +37,8 @@ const MainPageSlideShow = () => {
         >
           <div className="custom-slide">
             <img src="./images/slide-1.jpg" alt="Про Альону Єрмакову" />
-            <div className="text-overlay right-[55%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%]">
-              <p className="text-black">
+            <div className="text-overlay right-[55%] leading-2 md:leading-8 text-left text-xs md:text-[120%] lg:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%] ">
+              <p className="text-black italic">
                 Альона Єрмакова - психолог, акушерка, доула, післяпологова
                 доула.
               </p>
@@ -54,9 +54,9 @@ const MainPageSlideShow = () => {
           </div>
           <div className="custom-slide">
             <img src="./images/slide-2.jpg" alt="Доула" />
-            <div className="text-overlay right-[48%] md:right-[55%] left-0 md:left-[5%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[30%]">
-              <p className="uppercase mb-2">Doula:</p>
-              <p>
+            <div className="text-overlay right-[48%] md:right-[55%] left-0 md:left-[5%] leading-2 md:leading-8 text-left text-xs md:text-[120%] lg:text-[150%] font-light top-[5%] md:top-[20%] lg:top-[30%]">
+              <p className="uppercase mb-2 italic">Doula:</p>
+              <p className="italic">
                 cупровід та інформаційно/фізично/психологічна підтримка під час
                 вагітності та пологів
               </p>
@@ -72,9 +72,9 @@ const MainPageSlideShow = () => {
           </div>
           <div className="custom-slide">
             <img src="./images/slide-3.jpg" alt="Postpartum doula" />
-            <div className="text-overlay left-[50%] md:left-[55%] text-left text-xs md:text-[150%] leading-2 md:leading-8 font-light top-[5%] md:top-[20%] lg:top-[35%]">
-              <p className="uppercase mb-2">Doula postpartum:</p>
-              <p>
+            <div className="text-overlay left-[50%] md:left-[55%] text-left text-xs md:text-[120%] lg:text-[150%] leading-2 md:leading-8 font-light top-[5%] md:top-[20%] lg:top-[35%]">
+              <p className="uppercase mb-2 italic">Doula postpartum:</p>
+              <p className="italic">
                 всебічна підтримка мами (батьків) на шляху становлення тісного
                 контакту з новонародженим малям
               </p>
@@ -93,8 +93,8 @@ const MainPageSlideShow = () => {
               src="./images/slide-4.jpg"
               alt="Підтримка гармонії в сімейних стосунках"
             />
-            <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-0">
-              <p className="uppercase mb-2 md:mb-6">
+            <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[120%] lg:text-[150%] font-light top-[-5%] md:top-0 lg:top-[5%]">
+              <p className="uppercase mb-2 md:mb-6 italic">
                 підтримка гармонії в сімейних стосунках
               </p>
               <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">

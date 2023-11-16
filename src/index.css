@@ -11,7 +11,7 @@ body {
 }
 
 .nav {
-  @apply text-base lg:text-lg md:pb-4 md:pt-4;
+  @apply text-base lg:text-lg md:pb-2 lg:pb-4 lg:pt-4 md:pt-2;
 }
 
 .about-page {
@@ -38,7 +38,7 @@ body {
 }
 
 .services-main-page-section {
-  @apply leading-8 py-8 md:py-16 px-10 lg:px-0 text-[16px] md:text-[18px] max-w-[55rem] items-center mx-auto flex flex-nowrap flex-col;
+  @apply leading-8 py-8 md:py-16 px-4 lg:px-0 text-[16px] md:text-[18px] max-w-[55rem] items-center mx-auto flex flex-nowrap flex-col;
 }
 
 .services {

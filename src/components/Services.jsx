@@ -17,11 +17,7 @@ const Services = () => {
           , психолог, акушерка, доула, післяпологова доула.
         </p>
         <div className="mt-8">
-          <Link
-            to="/about"
-            className="link-button"
-            // className="text-primary border-b-2 border-primary hover:text-black hover:border-b-0"
-          >
+          <Link to="/about" className="link-button">
             Дізнатися більше
           </Link>
         </div>
@@ -59,38 +55,34 @@ const Services = () => {
         <h2 className="text-lg md:text-2xl text-primary uppercase">
           Отже, чим я зможу Вам допомогти:
         </h2>
-        <div className="md:grid md:grid-cols-2">
-          <div>
+        <div className="md:grid md:grid-cols-2 gap-6">
+          <div className="mb-12 md:mb-0">
             <h3 className="uppercase text-lg md:text-2xl text-primary">
               Doula
             </h3>
-            <p>
-              <ul className="custom-list">
-                <li>підтримка під час вагітності;</li>
-                <li>підготовка до пологів;</li>
-                <li>навчання технік розслаблення та розродження;</li>
-                <li>післяпологовий супровід: ГВ та догляд за малюком;</li>
-              </ul>
-            </p>
+            <ul className="custom-list">
+              <li>підтримка під час вагітності;</li>
+              <li>підготовка до пологів;</li>
+              <li>навчання технік розслаблення та розродження;</li>
+              <li>післяпологовий супровід: ГВ та догляд за малюком;</li>
+            </ul>
             <div className="my-4">
               <Link to="/doula" className="link-button">
                 Дізнатися більше
               </Link>
             </div>
           </div>
-
-          <div>
+          <div className="mb-12 md:mb-0">
             <h3 className="uppercase text-lg md:text-2xl text-primary">
               Doula postpartum:
             </h3>
-            <p>
-              <ul className="custom-list">
-                <li>налагодження грудного вигодовування;</li>
-                <li>допомога у відновленні;</li>
-                <li>супровід по догляду за новонародженим;</li>
-                <li>догляд за дитиною, поки матуся (батьки) відпочиває;</li>
-              </ul>
-            </p>
+            <ul className="custom-list">
+              <li>налагодження грудного вигодовування;</li>
+              <li>допомога у відновленні;</li>
+              <li>супровід по догляду за новонародженим;</li>
+              <li>догляд за дитиною, поки матуся (батьки) відпочиває;</li>
+            </ul>
+
             <div className="my-4">
               <Link to="/postpartum-doula" className="link-button">
                 Дізнатися більше
@@ -115,9 +107,9 @@ const Services = () => {
             </Link>
           </div>
         </div>
-        <p className="mt-10">
-          Запрошую Вас до співпраці.{" "}
-          <p>Разом нам вдасться подолати усі перешкоди на життєвому шляху. </p>
+        <p className="mt-10">Запрошую Вас до співпраці. </p>
+        <p>
+          Разом нам вдасться подолати усі перешкоди на життєвому шляху.{" "}
         </p>{" "}
         <p>З повагою, Альона Єрмакова.</p>
       </div>

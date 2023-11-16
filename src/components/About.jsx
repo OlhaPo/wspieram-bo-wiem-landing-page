@@ -3,8 +3,8 @@ import React from "react";
 const About = () => {
   return (
     <div className="about-page leading-8 py-8 md:py-16 px-8 lg:px-0">
-      <div className="max-w-[65rem] items-center md:items-start mx-auto flex md:flex-row flex-nowrap flex-col">
-        <div className="order-1 md:order-0">
+      <div className="max-w-[65rem] items-center lg:items-start mx-auto flex lg:flex-row flex-nowrap flex-col">
+        <div className="order-1 lg:order-0">
           <div className="text-lg md:text-2xl text-primary uppercase mb-4 md:mb-8">
             Привіт! <br />
             Мене звати Альона&nbsp;Єрмакова
@@ -23,27 +23,26 @@ const About = () => {
             Я пам&lsquo; ятаю свій шлях до пошуку сімейного щастя, до свідомого
             батьківства, до себе самої... Пам&lsquo;ятаю і знаю:
           </p>
-          <p>
-            <ul className="custom-list my-8 leading-8">
-              <li>Як важливо для людини вміти любити життя і себе в ньому;</li>
-              <li>
-                {" "}
-                Як важливо бажати і прагнути створити міцну сім&lsquo;ю, де
-                пануватимуть любов, підтримка, розуміння та повага, — не
-                втрачаючи себе в цьому процесі;
-              </li>
-              <li>
-                Як важливо відчувати себе спокійною і захищеною під час
-                вагітності та пологів та у післяпологовий період;
-              </li>
-              <li>Як важливо вміти бути другом і опорою для своїх дітей;</li>
-              <li>
-                Як важливо, на кожному із життєвих етапів отримувати та
-                відчувати підтримку і розуміння;
-              </li>
-              <li>І ще багато чого іншого...</li>
-            </ul>
-          </p>
+
+          <ul className="custom-list my-8 leading-8">
+            <li>Як важливо для людини вміти любити життя і себе в ньому;</li>
+            <li>
+              {" "}
+              Як важливо бажати і прагнути створити міцну сім&lsquo;ю, де
+              пануватимуть любов, підтримка, розуміння та повага, — не втрачаючи
+              себе в цьому процесі;
+            </li>
+            <li>
+              Як важливо відчувати себе спокійною і захищеною під час вагітності
+              та пологів та у післяпологовий період;
+            </li>
+            <li>Як важливо вміти бути другом і опорою для своїх дітей;</li>
+            <li>
+              Як важливо, на кожному із життєвих етапів отримувати та відчувати
+              підтримку і розуміння;
+            </li>
+            <li>І ще багато чого іншого...</li>
+          </ul>
 
           <p>
             Але найголовніше: завдяки власному досвіду, моїй допитливості,
@@ -55,7 +54,7 @@ const About = () => {
 
         <img
           src="/images/heroPic.jpg"
-          className="md:order-2 w-[350px] rounded-md shadow-xl mb-8 md:md-0 ml-0 md:ml-8"
+          className="lg:order-2 w-[350px] rounded-md shadow-xl mb-8 md:md-0 ml-0 md:ml-8"
         />
       </div>
     </div>
