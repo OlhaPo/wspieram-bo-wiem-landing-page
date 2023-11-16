@@ -20,7 +20,6 @@ const NavMenu = () => {
   }, []);
 
   const handleNav = () => {
-    console.log("handleNav");
     setIsOpenNav(!isOpenNav);
   };
 
@@ -38,7 +37,7 @@ const NavMenu = () => {
   return (
     <div className="nav">
       {isOpenNav ? (
-        <div className="w-full bg-[#eceae8] min-h-screen z-[120] flex flex-col justify-center items-start px-20 gap-6">
+        <div className="w-full bg-[#eceae8] min-h-screen z-[120] fixed flex flex-col justify-center items-start px-20 gap-6">
           <AiOutlineClose
             size={28}
             className="absolute right-6 top-6"
@@ -69,10 +68,10 @@ const NavMenu = () => {
             onClick={(e) => navigateOnMobile("/support", e)}
             className="hover:text-primary"
           >
-            Підтримка
+            Підтримка гармонії в сімейних стосунках
           </Link>
           <a href="#contacts">Контакти</a>
-          <a href="tel:+48570327545" className="contact-button">
+          <a href="tel:+48570327545" className="link-button">
             Запис на консультацію
           </a>
         </div>
@@ -81,11 +80,11 @@ const NavMenu = () => {
         <div>
           <Link to="/" className="inline-flex gap-3 lg:gap-4 items-center">
             <img
-              src="./logo-pink-10.jpg"
+              src="./logo.png"
               alt="Wspieram bo wiem logo"
               className="w-16 h-16 lg:h-[110px] lg:w-[110px]"
             />
-            <div className="bg-[url('/images/bg-logo-10.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
+            <div className="bg-[url('/images/bg-logo.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
               <span className="header-great-vibes text-3xl md:text-4xl">
                 Wspieram, bo wiem...
               </span>
@@ -126,7 +125,7 @@ const NavMenu = () => {
                   </li>
                   <li>
                     <Link to="/support" className="hover:text-primary">
-                      Підтримка
+                      Підтримка гармонії в сімейних стосунках
                     </Link>
                   </li>
                 </ul>
@@ -136,7 +135,7 @@ const NavMenu = () => {
           <a href="#contacts" className="hover:text-primary">
             Контакти
           </a>
-          <a href="#contacts" className="contact-button">
+          <a href="#contacts" className="link-button">
             Запис на консультацію
           </a>
         </div>

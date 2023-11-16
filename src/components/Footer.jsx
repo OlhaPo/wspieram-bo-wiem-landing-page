@@ -11,11 +11,11 @@ const Footer = () => {
     <div className="contacts" id="contacts">
       <div className="inline-flex items-center italic gap-2 text-2xl">
         <img
-          src="./logo-pink-10.jpg"
+          src="./logo.png"
           alt="Wspieram bo wiem logo"
           className="w-16 h-16"
         />
-        <div className="bg-[url('/images/bg-logo-10.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
+        <div className="bg-[url('/images/bg-logo.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
           <span className="header-great-vibes text-3xl md:text-4xl">
             Wspieram, bo wiem...
           </span>

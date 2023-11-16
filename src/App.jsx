@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Doula from "./components/Doula";
 import About from "./components/About";
 import PostpartumDoula from "./components/PostpartumDoula";
-import Therapy from "./components/Therapy";
+import Support from "./components/Support";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/doula" element={<Doula />} />
         <Route path="/postpartum-doula" element={<PostpartumDoula />} />
-        <Route path="/support" element={<Therapy />} />
+        <Route path="/support" element={<Support />} />
       </Routes>
 
       <Footer />

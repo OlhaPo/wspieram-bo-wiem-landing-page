@@ -36,7 +36,7 @@ const MainPageSlideShow = () => {
           }}
         >
           <div className="custom-slide">
-            <img src="./images/slide-4-new.jpg" alt="Про Альону Єрмакову" />
+            <img src="./images/slide-1.jpg" alt="Про Альону Єрмакову" />
             <div className="text-overlay right-[55%] leading-2 md:leading-8 text-left text-xs md:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%]">
               <p className="text-black">
                 Альона Єрмакова - психолог, акушерка, доула, післяпологова
@@ -89,10 +89,14 @@ const MainPageSlideShow = () => {
             </div>
           </div>
           <div className="custom-slide">
-            <img src="./images/slide-4.jpg" alt="Підтримка" />
+            <img
+              src="./images/slide-4.jpg"
+              alt="Підтримка гармонії в сімейних стосунках"
+            />
             <div className="text-overlay left-[-7%] md:left-0 lg:left-[5%] text-left text-xs md:text-[150%] font-light top-[-5%] md:top-0">
-              <p className="uppercase mb-2 md:mb-6">Підтримка:</p>
-              <p>підтримка гармонії в сімейних стосунках</p>
+              <p className="uppercase mb-2 md:mb-6">
+                підтримка гармонії в сімейних стосунках
+              </p>
               <div className="mt-5 md:mt-10 lg:mt-14 pl-[40%] md:pl-[15%] lg:pl-[40%]">
                 <Link
                   to="/support"
