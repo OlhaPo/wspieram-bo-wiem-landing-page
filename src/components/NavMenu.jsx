@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import { BiMenu } from "react-icons/bi";
 import { AiOutlineClose, AiOutlineDown } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const NavMenu = () => {
   const [isOpenNav, setIsOpenNav] = useState(false);
@@ -28,7 +29,6 @@ const NavMenu = () => {
   };
 
   const navigateOnMobile = (url, e) => {
-    console.log(url);
     e.preventDefault();
     setIsOpenNav(false);
     navigate(url);
@@ -70,7 +70,9 @@ const NavMenu = () => {
           >
             Підтримка гармонії в сімейних стосунках
           </Link>
-          <a href="#contacts">Контакти</a>
+          <HashLink smooth to="/#contacts" onClick={() => setIsOpenNav(false)}>
+            Контакти
+          </HashLink>
           <a href="tel:+48570327545" className="link-button">
             Запис на консультацію
           </a>
