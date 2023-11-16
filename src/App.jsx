@@ -7,10 +7,12 @@ import Doula from "./components/Doula";
 import About from "./components/About";
 import PostpartumDoula from "./components/PostpartumDoula";
 import Support from "./components/Support";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <NavMenu />
       <Routes>
         <Route
