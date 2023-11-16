@@ -16,10 +16,12 @@ const Footer = () => {
           className="w-16 h-16"
         />
         <div className="bg-[url('/images/bg-logo.png')] bg-cover flex flex-col pt-3 pb-2 px-5 whitespace-nowrap">
-          <span className="header-great-vibes text-3xl md:text-4xl">
+          <span className="header-great-vibes text-2xl md:text-3xl lg:text-4xl">
             Wspieram, bo wiem...
           </span>
-          <span className="text-lg italic">Підтримую, тому що знаю...</span>
+          <span className="text-base lg:text-xl italic">
+            Підтримую, тому що знаю...
+          </span>
         </div>
       </div>
 

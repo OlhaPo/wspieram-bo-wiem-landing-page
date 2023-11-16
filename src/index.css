@@ -38,7 +38,7 @@ body {
 }
 
 .services-main-page-section {
-  @apply leading-8 py-8 md:py-16 px-4 lg:px-0 text-[16px] md:text-[18px] max-w-[55rem] items-center mx-auto flex flex-nowrap flex-col;
+  @apply leading-8 py-8 md:py-16 px-5 md:px-6 lg:px-0 text-[16px] md:text-[18px] max-w-[55rem] items-center mx-auto flex flex-nowrap flex-col;
 }
 
 .services {
