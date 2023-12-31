@@ -39,8 +39,7 @@ const MainPageSlideShow = () => {
             <img src="./images/slide-1.jpg" alt="Про Альону Єрмакову" />
             <div className="text-overlay right-[55%] leading-2 md:leading-8 text-left text-xs md:text-[120%] lg:text-[150%] font-light top-[10%] md:top-[20%] lg:top-[35%] ">
               <p className="text-black italic">
-                Альона Єрмакова - психолог, акушерка, доула, післяпологова
-                доула.
+                Альона Єрмакова — акушерка, доула, післяпологова доула.
               </p>
               <div className="mt-5">
                 <Link

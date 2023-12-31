@@ -14,7 +14,7 @@ const Services = () => {
             &laquo;Wspieram, bo wiem...&raquo; &laquo;Підтримую, тому що
             знаю...&raquo;
           </span>
-          , психолог, акушерка, доула, післяпологова доула.
+          , акушерка, доула, післяпологова доула.
         </p>
         <div className="mt-8">
           <Link to="/about" className="link-button">
