@@ -20,6 +20,14 @@ const NavMenu = () => {
     return () => document.body.removeEventListener("click", closeDropdown);
   }, []);
 
+  useEffect(() => {
+    if (isOpenNav) {
+      document.body.classList.add("hide-scroll");
+    } else {
+      document.body.classList.remove("hide-scroll");
+    }
+  }, [isOpenNav]);
+
   const handleNav = () => {
     setIsOpenNav(!isOpenNav);
   };
@@ -37,7 +45,7 @@ const NavMenu = () => {
   return (
     <div className="nav">
       {isOpenNav ? (
-        <div className="w-full bg-[#eceae8] min-h-screen z-[120] fixed flex flex-col justify-center items-start px-20 gap-6">
+        <div className="w-full bg-[#eceae8] min-h-screen z-[120] fixed flex flex-col justify-center items-start px-20 gap-6 ">
           <AiOutlineClose
             size={28}
             className="absolute right-6 top-6"
@@ -49,9 +57,7 @@ const NavMenu = () => {
           >
             Про мене
           </Link>
-          <span className="inline-flex items-baseline gap-1 hover:text-primary">
-            Послуги:
-          </span>
+          <span className="inline-flex items-baseline gap-1">Послуги:</span>
           <Link
             onClick={(e) => navigateOnMobile("/doula", e)}
             className="hover:text-primary"
@@ -70,7 +76,12 @@ const NavMenu = () => {
           >
             Підтримка гармонії в сімейних стосунках
           </Link>
-          <HashLink smooth to="/#contacts" onClick={() => setIsOpenNav(false)}>
+          <HashLink
+            smooth
+            to="/#contacts"
+            onClick={() => setIsOpenNav(false)}
+            className="hover:text-primary"
+          >
             Контакти
           </HashLink>
           <a href="tel:+48570327545" className="link-button">

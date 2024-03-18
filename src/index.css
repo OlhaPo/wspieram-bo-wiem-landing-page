@@ -14,6 +14,10 @@ body {
   @apply text-base lg:text-lg md:pb-2 lg:pb-4 lg:pt-4 md:pt-2;
 }
 
+.hide-scroll {
+  @apply overflow-hidden;
+}
+
 .about-page {
   @apply bg-[url('/images/background-about.jpg')] bg-cover bg-no-repeat min-h-screen text-[16px] md:text-[17px] w-full;
 }
